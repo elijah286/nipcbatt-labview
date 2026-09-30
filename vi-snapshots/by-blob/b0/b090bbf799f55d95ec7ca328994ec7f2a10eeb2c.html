@@ -1,0 +1,66 @@
+<HTML>
+<HEAD>
+<TITLE>Execution Options - Measure.ctl</TITLE>
+<META NAME="Author" CONTENT="">
+<META NAME="GENERATOR" CONTENT="G Development Environment">
+</HEAD>
+<BODY BGCOLOR="#FFFFFF">
+<A NAME="Execution Options _ Measure.ctl"></A><H2>Execution Options - Measure.ctl</H2>
+<P><B>Execution Option</B> specifies operations to execute.</P>
+<P></P>
+<P><B>Configure and Measure</B> - Executes the complete </P>
+<P>VI which configures the instrument and performs the </P>
+<P>measurement </P>
+<P><B>Configure Only</B> - Sets the configuration to the </P>
+<P>instrument and Initiate but skips the fetch and measure. This </P>
+<P>is useful for external trigger usecases where the channel can </P>
+<P>be set to wait for the trigger and the execution can followed </P>
+<P>by that assets the trigger</P>
+<P><B>Measure Only</B> - Fetch the data captured in the </P>
+<P>instrument and performs the processing to return the </P>
+<P>measurements. Please note that Measure only cannot be </P>
+<P>repeated without preceding with the &quot;Configure Only&quot;</P>
+<HR>
+<H3>Connector Pane</H3>
+<P><IMG src="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAADAFBMVEX//////8z//5n//2b//zP//wD/zP//zMz/zJn/zGb/zDP/zAD/mf//mcz/mZn/mWb/mTP/mQD/Zv//Zsz/Zpn/Zmb/ZjP/ZgD/M///M8z/M5n/M2b/MzP/MwD/AP//AMz/AJn/AGb/ADP/AADM///M/8zM/5nM/2bM/zPM/wDMzP/MzMzMzJnMzGbMzDPMzADMmf/MmczMmZnMmWbMmTPMmQDMZv/MZszMZpnMZmbMZjPMZgDMM//MM8zMM5nMM2bMMzPMMwDMAP/MAMzMAJnMAGbMADPMAACZ//+Z/8yZ/5mZ/2aZ/zOZ/wCZzP+ZzMyZzJmZzGaZzDOZzACZmf+ZmcyZmZmZmWaZmTOZmQCZZv+ZZsyZZpmZZmaZZjOZZgCZM/+ZM8yZM5mZM2aZMzOZMwCZAP+ZAMyZAJmZAGaZADOZAABm//9m/8xm/5lm/2Zm/zNm/wBmzP9mzMxmzJlmzGZmzDNmzABmmf9mmcxmmZlmmWZmmTNmmQBmZv9mZsxmZplmZmZmZjNmZgBmM/9mM8xmM5lmM2ZmMzNmMwBmAP9mAMxmAJlmAGZmADNmAAAz//8z/8wz/5kz/2Yz/zMz/wAzzP8zzMwzzJkzzGYzzDMzzAAzmf8zmcwzmZkzmWYzmTMzmQAzZv8zZswzZpkzZmYzZjMzZgAzM/8zM8wzM5kzM2YzMzMzMwAzAP8zAMwzAJkzAGYzADMzAAAA//8A/8wA/5kA/2YA/zMA/wAAzP8AzMwAzJkAzGYAzDMAzAAAmf8AmcwAmZkAmWYAmTMAmQAAZv8AZswAZpkAZmYAZjMAZgAAM/8AM8wAM5kAM2YAMzMAMwAAAP8AAMwAAJkAAGYAADPuAADdAAC7AACqAACIAAB3AABVAABEAAAiAAARAAAA7gAA3QAAuwAAqgAAiAAAdwAAVQAARAAAIgAAEQAAAO4AAN0AALsAAKoAAIgAAHcAAFUAAEQAACIAABHu7u7d3d27u7uqqqqIiIh3d3dVVVVEREQiIiIREREAAAD7CIKZAAAAgUlEQVQ4T82QCwrAIAxDc/+7eaZOmqqtTstgjMVflWcIhSSClKMIQBdQT2gNu3UAOgtLK3g2Bx1oz7TyDgbps/2fHFoGjDAeOKgCaR9w1McAE2nsDWD34BkdSHmDpw5Jhlu9CYgwhdsCIFb3OTsQaK0YvVgcgLDPGTq7Ouz0EyDRBa+zVbnfcfFNAAAAAElFTkSuQmCC" ALT="Execution Options - Measure.ctl"></P>
+<HR>
+<H3>Front Panel</H3>
+<P><IMG src="data:image/png;base64, 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" ALT="Execution Options - Measure.ctl"></P>
+<HR>
+<H3>Controls and Indicators</H3>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG src="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAACAAAAAQCAMAAABA3o1rAAADAFBMVEX//////8z//5n//2b//zP//wD/zP//zMz/zJn/zGb/zDP/zAD/mf//mcz/mZn/mWb/mTP/mQD/Zv//Zsz/Zpn/Zmb/ZjP/ZgD/M///M8z/M5n/M2b/MzP/MwD/AP//AMz/AJn/AGb/ADP/AADM///M/8zM/5nM/2bM/zPM/wDMzP/MzMzMzJnMzGbMzDPMzADMmf/MmczMmZnMmWbMmTPMmQDMZv/MZszMZpnMZmbMZjPMZgDMM//MM8zMM5nMM2bMMzPMMwDMAP/MAMzMAJnMAGbMADPMAACZ//+Z/8yZ/5mZ/2aZ/zOZ/wCZzP+ZzMyZzJmZzGaZzDOZzACZmf+ZmcyZmZmZmWaZmTOZmQCZZv+ZZsyZZpmZZmaZZjOZZgCZM/+ZM8yZM5mZM2aZMzOZMwCZAP+ZAMyZAJmZAGaZADOZAABm//9m/8xm/5lm/2Zm/zNm/wBmzP9mzMxmzJlmzGZmzDNmzABmmf9mmcxmmZlmmWZmmTNmmQBmZv9mZsxmZplmZmZmZjNmZgBmM/9mM8xmM5lmM2ZmMzNmMwBmAP9mAMxmAJlmAGZmADNmAAAz//8z/8wz/5kz/2Yz/zMz/wAzzP8zzMwzzJkzzGYzzDMzzAAzmf8zmcwzmZkzmWYzmTMzmQAzZv8zZswzZpkzZmYzZjMzZgAzM/8zM8wzM5kzM2YzMzMzMwAzAP8zAMwzAJkzAGYzADMzAAAA//8A/8wA/5kA/2YA/zMA/wAAzP8AzMwAzJkAzGYAzDMAzAAAmf8AmcwAmZkAmWYAmTMAmQAAZv8AZswAZpkAZmYAZjMAZgAAM/8AM8wAM5kAM2YAMzMAMwAAAP8AAMwAAJkAAGYAADPuAADdAAC7AACqAACIAAB3AABVAABEAAAiAAARAAAA7gAA3QAAuwAAqgAAiAAAdwAAVQAARAAAIgAAEQAAAO4AAN0AALsAAKoAAIgAAHcAAFUAAEQAACIAABHu7u7d3d27u7uqqqqIiIh3d3dVVVVEREQiIiIREREAAAD7CIKZAAAASUlEQVQoU2O4RAAwEKGAAQ+AKMCvHYRw6sdUcAmKweAPpgKwg+Cu+vMHXcElqIJLRCv4Q6oV6I7EogAFIHxBKKDwALza4YbgBwC9/OSLdVQNggAAAABJRU5ErkJggg==" ALT="cenum"></P>
+</TD>
+<TD>
+<B>Execution Option</B> <P><B>Execution Option</B> specifies operations to execute.</P>
+<P></P>
+<P><B>Configure and Measure</B> - Executes the complete </P>
+<P>VI which configures the instrument and performs the </P>
+<P>measurement </P>
+<P><B>Configure Only</B> - Sets the configuration to the </P>
+<P>instrument and Initiate but skips the fetch and measure. This </P>
+<P>is useful for external trigger usecases where the channel can </P>
+<P>be set to wait for the trigger and the execution can followed </P>
+<P>by that assets the trigger</P>
+<P><B>Measure Only</B> - Fetch the data captured in the </P>
+<P>instrument and performs the processing to return the </P>
+<P>measurements. Please note that Measure only cannot be </P>
+<P>repeated without preceding with the &quot;Configure Only&quot;</P>
+</TD>
+</TR>
+</Table>
+<HR>
+<H3>List of SubVIs and Express VIs with Configuration Information</H3>
+<HR>
+<H3>VI Revision History</H3>
+<P>&quot;Execution Options - Measure.ctl History&quot;</P>
+<P>Current Revision:   11</P>
+<HR>
+<H3>Position in Hierarchy</H3>
+<P><IMG src="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAADYAAAB1CAMAAAAyV+ItAAADAFBMVEX//////8z//5n//2b//zP//wD/zP//zMz/zJn/zGb/zDP/zAD/mf//mcz/mZn/mWb/mTP/mQD/Zv//Zsz/Zpn/Zmb/ZjP/ZgD/M///M8z/M5n/M2b/MzP/MwD/AP//AMz/AJn/AGb/ADP/AADM///M/8zM/5nM/2bM/zPM/wDMzP/MzMzMzJnMzGbMzDPMzADMmf/MmczMmZnMmWbMmTPMmQDMZv/MZszMZpnMZmbMZjPMZgDMM//MM8zMM5nMM2bMMzPMMwDMAP/MAMzMAJnMAGbMADPMAACZ//+Z/8yZ/5mZ/2aZ/zOZ/wCZzP+ZzMyZzJmZzGaZzDOZzACZmf+ZmcyZmZmZmWaZmTOZmQCZZv+ZZsyZZpmZZmaZZjOZZgCZM/+ZM8yZM5mZM2aZMzOZMwCZAP+ZAMyZAJmZAGaZADOZAABm//9m/8xm/5lm/2Zm/zNm/wBmzP9mzMxmzJlmzGZmzDNmzABmmf9mmcxmmZlmmWZmmTNmmQBmZv9mZsxmZplmZmZmZjNmZgBmM/9mM8xmM5lmM2ZmMzNmMwBmAP9mAMxmAJlmAGZmADNmAAAz//8z/8wz/5kz/2Yz/zMz/wAzzP8zzMwzzJkzzGYzzDMzzAAzmf8zmcwzmZkzmWYzmTMzmQAzZv8zZswzZpkzZmYzZjMzZgAzM/8zM8wzM5kzM2YzMzMzMwAzAP8zAMwzAJkzAGYzADMzAAAA//8A/8wA/5kA/2YA/zMA/wAAzP8AzMwAzJkAzGYAzDMAzAAAmf8AmcwAmZkAmWYAmTMAmQAAZv8AZswAZpkAZmYAZjMAZgAAM/8AM8wAM5kAM2YAMzMAMwAAAP8AAMwAAJkAAGYAADPuAADdAAC7AACqAACIAAB3AABVAABEAAAiAAARAAAA7gAA3QAAuwAAqgAAiAAAdwAAVQAARAAAIgAAEQAAAO4AAN0AALsAAKoAAIgAAHcAAFUAAEQAACIAABHu7u7d3d27u7uqqqqIiIh3d3dVVVVEREQiIiIREREAAAD7CIKZAAABqklEQVRYR+2WTXLDIAyFtfFpfJAepAdl111WvU02FAQICNaPmUzJJH6OMXb08RAwDADT+jmhFmMbHPRhmBfFY7sgAfN7aHVnChYLdj5aHhcsNuk2m9vOjWLsB4+5GuYeagLmdgp2xOXa0zEX/nMltnSu1EzYRgvtFAYbbFYMJ8Blt3j5pqc89kVCt+qYMKdjW+GgcDwG96KcW3UUMVxcruTmfeMYprQLPcZKVplLXRcxXBYlp+xnxdrcYi0m3IWOWOxmm1uE4kcO+yWRT3KKbfHT3WB1DBMkLq5+3qqTgtVNoXdSMdpu0Mm6BdUND52MG16zvd5fd3sVxWJVQ/Rh6Ij1BRN6iCWnf8JyYiL2qBrshcPTIH4kVckNs7qwQRc26MIGvQn2fUIrMTBpPeYVcdhNlIQB3uElPLAO+U3BAH+3VM2V9JTd8IISnGx1t4xicPYyuZXcoCapY4JYbHLeQNSbYDF/vNpjiQHD2/f+Biwf0rozkAGDSbep3A71WhgeWvvCgPk0ivUH9F3H6HxNg2nCKLL9rudGLVjdOH0kpojBDFqMmbUMu7RQf/GIUyOB6DurAAAAAElFTkSuQmCC" ALT="Execution Options - Measure.ctl"></P>
+<HR>
+<H3>Iconified Cluster Constants</H3>
+</BODY>
+</HTML>
