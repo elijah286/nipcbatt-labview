@@ -1,0 +1,187 @@
+<HTML>
+<HEAD>
+<TITLE>DAQ_Power Supply Source and Measure.lvlib:Timing and Trigger Settings.ctl</TITLE>
+<META NAME="Author" CONTENT="">
+<META NAME="GENERATOR" CONTENT="G Development Environment">
+</HEAD>
+<BODY BGCOLOR="#FFFFFF">
+<A NAME="DAQ_Power Supply Source and Measure.lvlib:Timing and Trigger Settings.ctl"></A><H2>DAQ_Power Supply Source and Measure.lvlib:Timing and Trigger Settings.ctl</H2>
+<P><B>Timing and Trigger Settings</B> sets the timing and trigger settings for power supply task. </P>
+<P></P>
+<P>Refer help of each settings to configure them appropriately.</P>
+<HR>
+<H3>Connector Pane</H3>
+<P><IMG src="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAADAFBMVEX//////8z//5n//2b//zP//wD/zP//zMz/zJn/zGb/zDP/zAD/mf//mcz/mZn/mWb/mTP/mQD/Zv//Zsz/Zpn/Zmb/ZjP/ZgD/M///M8z/M5n/M2b/MzP/MwD/AP//AMz/AJn/AGb/ADP/AADM///M/8zM/5nM/2bM/zPM/wDMzP/MzMzMzJnMzGbMzDPMzADMmf/MmczMmZnMmWbMmTPMmQDMZv/MZszMZpnMZmbMZjPMZgDMM//MM8zMM5nMM2bMMzPMMwDMAP/MAMzMAJnMAGbMADPMAACZ//+Z/8yZ/5mZ/2aZ/zOZ/wCZzP+ZzMyZzJmZzGaZzDOZzACZmf+ZmcyZmZmZmWaZmTOZmQCZZv+ZZsyZZpmZZmaZZjOZZgCZM/+ZM8yZM5mZM2aZMzOZMwCZAP+ZAMyZAJmZAGaZADOZAABm//9m/8xm/5lm/2Zm/zNm/wBmzP9mzMxmzJlmzGZmzDNmzABmmf9mmcxmmZlmmWZmmTNmmQBmZv9mZsxmZplmZmZmZjNmZgBmM/9mM8xmM5lmM2ZmMzNmMwBmAP9mAMxmAJlmAGZmADNmAAAz//8z/8wz/5kz/2Yz/zMz/wAzzP8zzMwzzJkzzGYzzDMzzAAzmf8zmcwzmZkzmWYzmTMzmQAzZv8zZswzZpkzZmYzZjMzZgAzM/8zM8wzM5kzM2YzMzMzMwAzAP8zAMwzAJkzAGYzADMzAAAA//8A/8wA/5kA/2YA/zMA/wAAzP8AzMwAzJkAzGYAzDMAzAAAmf8AmcwAmZkAmWYAmTMAmQAAZv8AZswAZpkAZmYAZjMAZgAAM/8AM8wAM5kAM2YAMzMAMwAAAP8AAMwAAJkAAGYAADPuAADdAAC7AACqAACIAAB3AABVAABEAAAiAAARAAAA7gAA3QAAuwAAqgAAiAAAdwAAVQAARAAAIgAAEQAAAO4AAN0AALsAAKoAAIgAAHcAAFUAAEQAACIAABHu7u7d3d27u7uqqqqIiIh3d3dVVVVEREQiIiIREREAAAD7CIKZAAAAi0lEQVQ4T82QQRKAIAwD8/+/8aYoDVErCh44GIZ2bLeZCjgRWIb6CACIuN+a41s1A1FV0Gm15HAFUDoHj8Cj2SH2QVtA0wkYaAkwfWoMZUAoVaFyAmqqLdjzmMyAzpW4A13jEeAD+Ko1QLwBqT3YwnHRGv5L4AzBuksjDnbqHM6QHdxJOxgY6SfARBtNcdACc0/CKAAAAABJRU5ErkJggg==" ALT="DAQ_Power Supply Source and Measure.lvlib:Timing and Trigger Settings.ctl"></P>
+<HR>
+<H3>Front Panel</H3>
+<P><IMG src="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAAWYAAAFACAMAAAC4DSYPAAADAFBMVEX//////8z//5n//2b//zP//wD/zP//zMz/zJn/zGb/zDP/zAD/mf//mcz/mZn/mWb/mTP/mQD/Zv//Zsz/Zpn/Zmb/ZjP/ZgD/M///M8z/M5n/M2b/MzP/MwD/AP//AMz/AJn/AGb/ADP/AADM///M/8zM/5nM/2bM/zPM/wDMzP/MzMzMzJnMzGbMzDPMzADMmf/MmczMmZnMmWbMmTPMmQDMZv/MZszMZpnMZmbMZjPMZgDMM//MM8zMM5nMM2bMMzPMMwDMAP/MAMzMAJnMAGbMADPMAACZ//+Z/8yZ/5mZ/2aZ/zOZ/wCZzP+ZzMyZzJmZzGaZzDOZzACZmf+ZmcyZmZmZmWaZmTOZmQCZZv+ZZsyZZpmZZmaZZjOZZgCZM/+ZM8yZM5mZM2aZMzOZMwCZAP+ZAMyZAJmZAGaZADOZAABm//9m/8xm/5lm/2Zm/zNm/wBmzP9mzMxmzJlmzGZmzDNmzABmmf9mmcxmmZlmmWZmmTNmmQBmZv9mZsxmZplmZmZmZjNmZgBmM/9mM8xmM5lmM2ZmMzNmMwBmAP9mAMxmAJlmAGZmADNmAAAz//8z/8wz/5kz/2Yz/zMz/wAzzP8zzMwzzJkzzGYzzDMzzAAzmf8zmcwzmZkzmWYzmTMzmQAzZv8zZswzZpkzZmYzZjMzZgAzM/8zM8wzM5kzM2YzMzMzMwAzAP8zAMwzAJkzAGYzADMzAAAA//8A/8wA/5kA/2YA/zMA/wAAzP8AzMwAzJkAzGYAzDMAzAAAmf8AmcwAmZkAmWYAmTMAmQAAZv8AZswAZpkAZmYAZjMAZgAAM/8AM8wAM5kAM2YAMzMAMwAAAP8AAMwAAJkAAGYAADPuAADdAAC7AACqAACIAAB3AABVAABEAAAiAAARAAAA7gAA3QAAuwAAqgAAiAAAdwAAVQAARAAAIgAAEQAAAO4AAN0AALsAAKoAAIgAAHcAAFUAAEQAACIAABHu7u7d3d27u7uqqqqIiIh3d3dVVVVEREQiIiIREREAAAD7CIKZAAAO2ElEQVR4Xu2dW7KruA5AGeWZzx5gpuNU5Ufd4Jdky2CCLbCjVX0D+IVZUSCcTXQXUARYwCjdUc0iXNP8CrhNvhFXepIXHSXZMalJS05RGrZAbcNrmlfQnuQ02yK+IVdaS4iXZBRUQOpq99ZUc0eqNV+jNGZJcy0NNcdzxzYVt0XOKHHdFucx48pRWztCWbNrm+wN7wLvDbVEG+mYaIg4Vrp6fGyv0Fo1c2OiIeJY6erxsb1C64aakwNH+3WLMJlUSejuROC2vkfSNo5LGpM5uCq8Nzou6hYH9WZwW9yM9Ng9tlgpqtkt0IEbhmSCaDVrGDtkpWgX2apfZ3cfGpAdH2pOuuG9rTxJ88uTt+Wk+JJTmsMuuBHRIC/SFjcm/faPLQ5wi2YTps8MFOearvLtkypUGifgV6mhI81JQb5ad2zrlmrmmEMzf4DeROI2zJ1vX9Cczwq1jeOmZDvOe5DOu8eGSttpfr38+/hCmmmpMWkpHen18l8GY1sTShPQjskIsVe+auIqM2Kxrd+gq7Ft4dji6nXNX0As9gHtQmBvCH5vqrkxD9JMPpqdYD+7ErB7U82teZDmn0M1i6CaRVDNIqhmEVSzCKpZBNUsgmoWQTWLoJpFUM0iqGYRVLMIqlkE1SyCahYh1bz+TqLQdK3kymwpU5eU7A49OYlmCC8sBZWFXskbyDf6DTjNZfZUVmn+VQqa3Qf8/xdYC/3HHVAd7UDr7ALyelK3Dmxwh3nPKzvnZnAe7Gk3fObDiiEruC4u8OCJX2N8A0gL54P7pgFWSdTsCp0UwDFX1mwM5KGZGYXQ16RDzwSvOUooRDNqi9cSzXloHmg2s8J/09iURc3k3Bx84w60Do/CDU32kNdNSOHcDP7iF47e1UFoknVAdeQ0zLSke8jq5qPmLvC4hXKAahahRrNyGdUsgmoWgWh+v/8G5/0uH+qdYM3vVfN7YLbZ7xzsfVDNQ0teeWo4Y81jh7Ll72/nYO+D0fwZhGE125ny838chWmOqHl5Lts0DTFsBtMcPpFHx3ojVrOJot36QJpDQB8d6414zaHADK15/bfJcChxrQDEDpA3Pux+AnfSwCUDa7bG/JEcegLUQTVHdjR/vtfs1vPadkygebsEfnA0w7KdCtzCnxggLcw1Jy3bqZ5Ac3iNmoEsbOHiFrEQUs3hXfKLVpb9JXBdszNdxrsEeteMJ6wZYpDSlqGAFuKr6VWi5sVaHlFz+N68pznYXtzKoeYu0fz/+vY6nub1vw+nGcjW+ko0Q3Sfa4ZY0gCs2TKc5o93vSzo4rV5Si+BKEL9VmxCt5D9BthLNNG8DKb5jTQ/FdUsgtOMb7ZVc3vc93p0KMuAmv0l8LHYSyApGu0SGCgc4hPA08SMqPnJjK75KI6ewrCa9S/bvVDNImDN+jhMN6hmfbirE1izPqrYDaJZ6YVqFkE1i6CaRVDNIqhmEVSzCKpZBNUsgpRmCC9p4REww6/lH68ZTF27Z5Nqhr3gYapgtwNpZlDOCGNQloddato8n0QzG3RJdV4SiwtdXSoflBRmyznj86GEN4FL1MGPOBic5jKXNAPW7IuIezyAK6z7sDyegmYfSj4IURIeeuQxPHHimESO9+rid6sNg/qi5D3C7sdn59ycBp1B8RaDLu0QatG4/q0Kb4KhmmMz0mdizVtZsOd8uEKnGZsNkkhA0ibhDXONw8DAnDRwn+k1x2MsRDNqa3At+EIKBM3o7YgRHYSTPlzhqPDfNEjQBRvUaOzgtSF9uEnSj3T9FQrnZvAXv2DN1UFo4srci+tAwxMNG99Bf0L5JctVd4HHLZQDVLMINZqbkJ1HaGWxag6aPKdR8XQErGNDcYRyTcXYA9DgqaOqZ31gf2wolFeNPQBNnqGrCDlwY6/njm2xmoW33XKaQx0g6xVjD0CbJ0KPn8P8Q/Ks4E3y2xuOK2G7euwBENPccewBIJrXozrKl5VhXezsovvYA5Br5mOqSKWKnmMPAKP56DcfhFoVPcceANUsgmoWoaTZJW8g6QIAFfqKWhXFsYHb07mxB6CgGXxOBnT0EFJkoPJaFaWx6YJSO/YA8JoB5xxxuC28OKGiMDZdJNSOPQB7J40jzXBCRWFs1XyoGc6oUM1h/ZRmd82qVaGaw/opzRrNZ9j9Quddki3Aa9UqSmPTBaV27AEofNMAcAm3rBf3HcxvIVW1KnbGxgtC7dgDUHcXyDhw1KrQu8Cw3lNFz7EHQDWLwGg+R6WKnmMPQKb5KMQy6lT0HHsAiOY/NqYqOP57Xc+xB0A1i4A1vzs+p9Fz7AGgmvs9dfTuOPYAYM09n6HrOvbzIZqVXqhmEVSzCKpZBNUsgmoWQTWLoJpFUM0iqGYRVLMIqlmEVPPpH6PCbo8cONthChLNEF5Y2Brg6opjlCrmNs9pLrOnuZJzrWehoNnnvIhJXWJ1+qF3Va7OtzGxH0DMyRFjn9alHSZ7N3bOzVawYZPw4E6AFi7bjiHqSPv4BtK6pJDsYXy4bxpgQiIY6s34UCPBVtbsS4jmpDXR7Arnu0rymr2pYjTT5nHBaTbEGW0d65L3ZTL4bxrbMUfN5NwcLJI+O5qptbQ1LseFc7kunJvBX/ywC38mST7RgOvstt3yukgHYOt2OkxBzV3gcYtd9oJzwsBlEdC8G5zzBS5LjWblMqpZBNUsQpOHuyhzPI7VlgaPKlJmebiwLU0evKVoOOdgzddD2TLFg99tyTRv544A2ahFNWcQzasj8/4X8pP9WzXv5C9jsJ53dvib5Jr//TPud0zr6slfmalmnlzzx1v+3/PHnPvNpGouwETz6sv8bdr+qeY2cJrX1e0ypppbwWve7uaIZi4RQ45qLlCIZkvUTNOKFJWr5gJ1mn2SEtX8JYVLoCPR7Bfgs8WkpxLVXID73hx5s5qTBEiq+ZhKzRuq+WsyzcsHafssGs1NOK0ZnGZQzSfINZNLINW8+DMHuBRnegmshNOMbk8WvQtsAq853Gyr5jYUNJvNlGpuBaPZ+NtAf24+gWrmyTX//9U5BOe6tRe9OaqZJftb4LL9+W+9NVk3FjZmD9C/BWbkf3Ilwal/cm2DPqchAtWsTx11AmvWZ+i6QTQrvVDNIqhmEVSzCKpZBNUsgmoWQTWLoJpFUM0iqGYRVLMIqlkEqvnk73l+jq//7VGjWQTVLIJqFkE1i6CaRVDNIqhmEahm+DKRVtLtqzGmJo3mva0iEF5wAdPmZ9nXXEnWSTUncJpDTlD/Ci6jZEwsGdOG+k6uJcQCt+U6fHc2mgU2miFdAbJAm74XAKojA+AOv0tRc9hKNANSmvT0da6x3YJQ/csca45nEBzBrGa0Hlqo5pVjzVSXrye9XCGg9awQv0e/x55mf37Al7KwoL2yJlk/cs38OY7vArNQVc5zrDmNSuULKjQr11HNIqhmEVSzCMkDBE1+49OVMX9ARDS/W/xirSuj/hwu0fxsyStjhjPR/PBQtgz5U+Vcc4M82V2ZQPN6GBfzZHfFei4fzWNhNF/Kk92VqTRfyZPdlbk0X8mT3ZXZNJuv82R3ZT7N2w1XObOwY/v3+1xHL+bT7DjQnBZ1Vv4Dmm1a0IzOYimzaY7EaAafJJSYdUlZfdps+woonajtEJpcYjLNfJ5s4JLchgKyAmSBNq/xE5oX2NMcthLN4MO5AVNpPkrgfKA5nkFwBKvmxpoBVcR61ZxpPsiTTYxhzf78ADiHtl8sDZhN8/d5sstx34D5NH+bJ3tJw7glE2r+Mk92VybTnOXJPjp+IebSnObJVs3XYTSnebL1ryfXYe4CSQSZs1nfuzKJZn2AoBOqWQSiWZ866kWiWZ+h6wPRrE+E9oJqVjqhmkVQzSKoZhFUswiqWQTVLIJqFkE1i6CaRVDNIqhmEVSzCONq3h5yOmrkSFJr1vY7s4t9sOYzowpPnOsG7n9p3qW8iGz7enYaO/2Y2npIND924sUZlPofzZZpwhZWzu8QXjPXsLzdf+LFkbf/2TfBpRZMs4VBOoBbpU1cMs7sQ2P3EZq6DgbQwtTAar554qg73UOos2O4JmA7ht3jDsy2b0ibQFxgQmeyUm5fonzSiFORn3jc9L2oX7tYS8CEt8jV4NkBcY+AtAmE8rQdKmRmeyWa8Xi4yMhMHHcnPYEuwPWz235maAdAX8hYSZPq2cYPYthZBTuXwPBO3TLx/AB2NceoCjvAFWg0PL/YBM0W7zmfLT2sfJY8+9Eci2UnDrSPL0QLiNFrV+xL+LTFVzDxI2gHo2+raxIr0X7JbN0oaLfGGNq8CPe9OR9PduJ2gTvlTdAeAIJg0x83f3wYFZTvAk8O9D3fTTxFyHL6jleyc7N9bqALfDXxsRj33zSGQjWLoJpFGFhzu+cq+z/+mGhuN/VeBCXvVk8JSzzMmz5422jqvUBKGj7z3j+cs+ebj6Z0N0FJy3jo/kMLqrnl1HvhlbTMtHmP5qMcklLsKrG/rkszbZ6fux2UldOORLM9kof84LIwDaI5zbR5eu7P0Lz7a8i+bNOg5wGDlFjNaabNsz99vlez/zCdm3NbrGZ09nXrNJrXlijT5liaQ0AfTbMjXnMoMKxmE5N/qOYvcCcNXMJr3m5bsObt37GL4xJUc7VmB9K8NmbSADHqn6D5M7zmQ+7VvF0CP0NEcyTXHFLiueVWDD4X09rkXs3hdbkPdwlcXBqNZb0G5pqTFJDJuTkkZ6PmIVTcrvnjD+4uoubFTaRaczhjxCj2WyiB2xM0u2vgch9I82LnkWvOUkD6k4Yz6xd5bLt4v1nz+t8jzs04J9AJzUvxpGFXfIDfq/njXS/3YS/BRPOSaU4zbZJLoDtHQ7jooaS9rvBeze9xNKPbE6+5Am9bNTvN+Gab14wzbdZq1mj2WM3x9mMVzmtGmTarNTtu1/yQSyApyi+BaabN8TRvHE2zI3gaGKL5nWTaHFTzndRo3uIbZdo8PfcbNR+FgBS8GHIXSNqbb+Z+h+Y//sieBPnLdiPu+cv2o5lA83ugx2EazjWM2Y1U80gPdzWaq/wzdGuIPJxopN1cu1se+cHbkVDNIqhmEVSzCKpZBNUsArj/50SlL/8B6/QPI8hgETMAAAAASUVORK5CYII=" ALT="DAQ_Power Supply Source and Measure.lvlib:Timing and Trigger Settings.ctl"></P>
+<HR>
+<H3>Controls and Indicators</H3>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG src="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAACAAAAAQCAMAAABA3o1rAAADAFBMVEX//////8z//5n//2b//zP//wD/zP//zMz/zJn/zGb/zDP/zAD/mf//mcz/mZn/mWb/mTP/mQD/Zv//Zsz/Zpn/Zmb/ZjP/ZgD/M///M8z/M5n/M2b/MzP/MwD/AP//AMz/AJn/AGb/ADP/AADM///M/8zM/5nM/2bM/zPM/wDMzP/MzMzMzJnMzGbMzDPMzADMmf/MmczMmZnMmWbMmTPMmQDMZv/MZszMZpnMZmbMZjPMZgDMM//MM8zMM5nMM2bMMzPMMwDMAP/MAMzMAJnMAGbMADPMAACZ//+Z/8yZ/5mZ/2aZ/zOZ/wCZzP+ZzMyZzJmZzGaZzDOZzACZmf+ZmcyZmZmZmWaZmTOZmQCZZv+ZZsyZZpmZZmaZZjOZZgCZM/+ZM8yZM5mZM2aZMzOZMwCZAP+ZAMyZAJmZAGaZADOZAABm//9m/8xm/5lm/2Zm/zNm/wBmzP9mzMxmzJlmzGZmzDNmzABmmf9mmcxmmZlmmWZmmTNmmQBmZv9mZsxmZplmZmZmZjNmZgBmM/9mM8xmM5lmM2ZmMzNmMwBmAP9mAMxmAJlmAGZmADNmAAAz//8z/8wz/5kz/2Yz/zMz/wAzzP8zzMwzzJkzzGYzzDMzzAAzmf8zmcwzmZkzmWYzmTMzmQAzZv8zZswzZpkzZmYzZjMzZgAzM/8zM8wzM5kzM2YzMzMzMwAzAP8zAMwzAJkzAGYzADMzAAAA//8A/8wA/5kA/2YA/zMA/wAAzP8AzMwAzJkAzGYAzDMAzAAAmf8AmcwAmZkAmWYAmTMAmQAAZv8AZswAZpkAZmYAZjMAZgAAM/8AM8wAM5kAM2YAMzMAMwAAAP8AAMwAAJkAAGYAADPuAADdAAC7AACqAACIAAB3AABVAABEAAAiAAARAAAA7gAA3QAAuwAAqgAAiAAAdwAAVQAARAAAIgAAEQAAAO4AAN0AALsAAKoAAIgAAHcAAFUAAEQAACIAABHu7u7d3d27u7uqqqqIiIh3d3dVVVVEREQiIiIREREAAAD7CIKZAAAATklEQVQoU42PQQ4AEAwE+xL/f2QPwm6KaJcJdTDbYu2BfQgmgKDjY2XBeRwCIsaSCdwLTzvsgt9voIR6CnGDUS8BHepvkhBKKAhkPJpoOs5lKWV/O+R3AAAAAElFTkSuQmCC" ALT="ccclst"></P>
+</TD>
+<TD>
+<B>Timing and Trigger Settings</B> <P><B>Timing and Trigger Settings</B> sets the timing and trigger settings for power supply task. </P>
+<P></P>
+<P>Applicable for &quot;Configure &amp; Measure&quot; &amp; &quot;Configure Only&quot;</P>
+<P></P>
+<P>Refer help of each settings to configure them appropriately.</P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG src="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAACAAAAAQCAMAAABA3o1rAAADAFBMVEX//////8z//5n//2b//zP//wD/zP//zMz/zJn/zGb/zDP/zAD/mf//mcz/mZn/mWb/mTP/mQD/Zv//Zsz/Zpn/Zmb/ZjP/ZgD/M///M8z/M5n/M2b/MzP/MwD/AP//AMz/AJn/AGb/ADP/AADM///M/8zM/5nM/2bM/zPM/wDMzP/MzMzMzJnMzGbMzDPMzADMmf/MmczMmZnMmWbMmTPMmQDMZv/MZszMZpnMZmbMZjPMZgDMM//MM8zMM5nMM2bMMzPMMwDMAP/MAMzMAJnMAGbMADPMAACZ//+Z/8yZ/5mZ/2aZ/zOZ/wCZzP+ZzMyZzJmZzGaZzDOZzACZmf+ZmcyZmZmZmWaZmTOZmQCZZv+ZZsyZZpmZZmaZZjOZZgCZM/+ZM8yZM5mZM2aZMzOZMwCZAP+ZAMyZAJmZAGaZADOZAABm//9m/8xm/5lm/2Zm/zNm/wBmzP9mzMxmzJlmzGZmzDNmzABmmf9mmcxmmZlmmWZmmTNmmQBmZv9mZsxmZplmZmZmZjNmZgBmM/9mM8xmM5lmM2ZmMzNmMwBmAP9mAMxmAJlmAGZmADNmAAAz//8z/8wz/5kz/2Yz/zMz/wAzzP8zzMwzzJkzzGYzzDMzzAAzmf8zmcwzmZkzmWYzmTMzmQAzZv8zZswzZpkzZmYzZjMzZgAzM/8zM8wzM5kzM2YzMzMzMwAzAP8zAMwzAJkzAGYzADMzAAAA//8A/8wA/5kA/2YA/zMA/wAAzP8AzMwAzJkAzGYAzDMAzAAAmf8AmcwAmZkAmWYAmTMAmQAAZv8AZswAZpkAZmYAZjMAZgAAM/8AM8wAM5kAM2YAMzMAMwAAAP8AAMwAAJkAAGYAADPuAADdAAC7AACqAACIAAB3AABVAABEAAAiAAARAAAA7gAA3QAAuwAAqgAAiAAAdwAAVQAARAAAIgAAEQAAAO4AAN0AALsAAKoAAIgAAHcAAFUAAEQAACIAABHu7u7d3d27u7uqqqqIiIh3d3dVVVVEREQiIiIREREAAAD7CIKZAAAATklEQVQoU42PQQ4AEAwE+xL/f2QPwm6KaJcJdTDbYu2BfQgmgKDjY2XBeRwCIsaSCdwLTzvsgt9voIR6CnGDUS8BHepvkhBKKAhkPJpoOs5lKWV/O+R3AAAAAElFTkSuQmCC" ALT="ccclst"></P>
+</TD>
+<TD>
+<B>Timing Settings</B> <P><B>Timing Settings</B> sets the timing settings for power supply measurements which includes source clock source, sample rate, number of samples and sample timing engine to measure power measurements.</P>
+<P></P>
+<P>Applicable for &quot;Configure &amp; Measure&quot; &amp; &quot;Configure Only&quot;</P>
+<P></P>
+<P>Refer below scenario that will help in selecting appropriate values for <B>Sample Rate</B> and <B>Number of Samples</B>.</P>
+<P></P>
+<P>Total acquisition time is based on sample rate and no of samples given.</P>
+<P>Acquisition time = Number Of Samples/Sample rate</P>
+<P></P>
+<P>For Fast measurements, set maximum sample rate possible for the given &quot;Sample Clock Source&quot; input and assign smaller &quot;Number of Samples&quot; to capture. Minumum value for Number of Samples is 2</P>
+<P></P>
+<P>For Precise measurements, assign higher &quot;Number of Samples&quot; to capture. Eg. 1000</P>
+<P></P>
+<P>Refer help for each controls for more details.</P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG src="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAACAAAAAQCAMAAABA3o1rAAADAFBMVEX//////8z//5n//2b//zP//wD/zP//zMz/zJn/zGb/zDP/zAD/mf//mcz/mZn/mWb/mTP/mQD/Zv//Zsz/Zpn/Zmb/ZjP/ZgD/M///M8z/M5n/M2b/MzP/MwD/AP//AMz/AJn/AGb/ADP/AADM///M/8zM/5nM/2bM/zPM/wDMzP/MzMzMzJnMzGbMzDPMzADMmf/MmczMmZnMmWbMmTPMmQDMZv/MZszMZpnMZmbMZjPMZgDMM//MM8zMM5nMM2bMMzPMMwDMAP/MAMzMAJnMAGbMADPMAACZ//+Z/8yZ/5mZ/2aZ/zOZ/wCZzP+ZzMyZzJmZzGaZzDOZzACZmf+ZmcyZmZmZmWaZmTOZmQCZZv+ZZsyZZpmZZmaZZjOZZgCZM/+ZM8yZM5mZM2aZMzOZMwCZAP+ZAMyZAJmZAGaZADOZAABm//9m/8xm/5lm/2Zm/zNm/wBmzP9mzMxmzJlmzGZmzDNmzABmmf9mmcxmmZlmmWZmmTNmmQBmZv9mZsxmZplmZmZmZjNmZgBmM/9mM8xmM5lmM2ZmMzNmMwBmAP9mAMxmAJlmAGZmADNmAAAz//8z/8wz/5kz/2Yz/zMz/wAzzP8zzMwzzJkzzGYzzDMzzAAzmf8zmcwzmZkzmWYzmTMzmQAzZv8zZswzZpkzZmYzZjMzZgAzM/8zM8wzM5kzM2YzMzMzMwAzAP8zAMwzAJkzAGYzADMzAAAA//8A/8wA/5kA/2YA/zMA/wAAzP8AzMwAzJkAzGYAzDMAzAAAmf8AmcwAmZkAmWYAmTMAmQAAZv8AZswAZpkAZmYAZjMAZgAAM/8AM8wAM5kAM2YAMzMAMwAAAP8AAMwAAJkAAGYAADPuAADdAAC7AACqAACIAAB3AABVAABEAAAiAAARAAAA7gAA3QAAuwAAqgAAiAAAdwAAVQAARAAAIgAAEQAAAO4AAN0AALsAAKoAAIgAAHcAAFUAAEQAACIAABHu7u7d3d27u7uqqqqIiIh3d3dVVVVEREQiIiIREREAAAD7CIKZAAAATUlEQVQoU2PoJQAYiFDAgAdAFODXDkI49aMo6IVY1gsxGIsCmDoYYmD4g01BLwOSgj9kKIApwqYA7EgYE0yhuwETwBUQCig8gLjIwg8ARBWcCjRQcdoAAAAASUVORK5CYII=" ALT="cniterm"></P>
+</TD>
+<TD>
+<B>Sample Clock Source</B> <P><B>Sample Clock Source</B> specifies the source terminal of the Sample Clock.</P>
+<P></P>
+<P>Refer to the Device Routes table in Measurement and Automation Explorer to determine eligible sample clock sources.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG src="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAACAAAAAQCAMAAABA3o1rAAADAFBMVEX//////8z//5n//2b//zP//wD/zP//zMz/zJn/zGb/zDP/zAD/mf//mcz/mZn/mWb/mTP/mQD/Zv//Zsz/Zpn/Zmb/ZjP/ZgD/M///M8z/M5n/M2b/MzP/MwD/AP//AMz/AJn/AGb/ADP/AADM///M/8zM/5nM/2bM/zPM/wDMzP/MzMzMzJnMzGbMzDPMzADMmf/MmczMmZnMmWbMmTPMmQDMZv/MZszMZpnMZmbMZjPMZgDMM//MM8zMM5nMM2bMMzPMMwDMAP/MAMzMAJnMAGbMADPMAACZ//+Z/8yZ/5mZ/2aZ/zOZ/wCZzP+ZzMyZzJmZzGaZzDOZzACZmf+ZmcyZmZmZmWaZmTOZmQCZZv+ZZsyZZpmZZmaZZjOZZgCZM/+ZM8yZM5mZM2aZMzOZMwCZAP+ZAMyZAJmZAGaZADOZAABm//9m/8xm/5lm/2Zm/zNm/wBmzP9mzMxmzJlmzGZmzDNmzABmmf9mmcxmmZlmmWZmmTNmmQBmZv9mZsxmZplmZmZmZjNmZgBmM/9mM8xmM5lmM2ZmMzNmMwBmAP9mAMxmAJlmAGZmADNmAAAz//8z/8wz/5kz/2Yz/zMz/wAzzP8zzMwzzJkzzGYzzDMzzAAzmf8zmcwzmZkzmWYzmTMzmQAzZv8zZswzZpkzZmYzZjMzZgAzM/8zM8wzM5kzM2YzMzMzMwAzAP8zAMwzAJkzAGYzADMzAAAA//8A/8wA/5kA/2YA/zMA/wAAzP8AzMwAzJkAzGYAzDMAzAAAmf8AmcwAmZkAmWYAmTMAmQAAZv8AZswAZpkAZmYAZjMAZgAAM/8AM8wAM5kAM2YAMzMAMwAAAP8AAMwAAJkAAGYAADPuAADdAAC7AACqAACIAAB3AABVAABEAAAiAAARAAAA7gAA3QAAuwAAqgAAiAAAdwAAVQAARAAAIgAAEQAAAO4AAN0AALsAAKoAAIgAAHcAAFUAAEQAACIAABHu7u7d3d27u7uqqqqIiIh3d3dVVVVEREQiIiIREREAAAD7CIKZAAAASElEQVQoU2MQJwAYiFDAgAdAFODXDkI49SMrAGuAk1gVoCAQ+INVAZIJf/4QMoFUBciOBCtBdQM2gDARF0CyD5cZ+LTDDcEPAFR3IxozD44cAAAAAElFTkSuQmCC" ALT="cdbl"></P>
+</TD>
+<TD>
+<B>Sample Rate (Hz)</B> <P><B>Sample Rate</B> specifies the sampling rate in samples per channel per second. If you use an external source for the Sample Clock, set this input to the maximum expected rate of that clock.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG src="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAACAAAAAQCAMAAABA3o1rAAADAFBMVEX//////8z//5n//2b//zP//wD/zP//zMz/zJn/zGb/zDP/zAD/mf//mcz/mZn/mWb/mTP/mQD/Zv//Zsz/Zpn/Zmb/ZjP/ZgD/M///M8z/M5n/M2b/MzP/MwD/AP//AMz/AJn/AGb/ADP/AADM///M/8zM/5nM/2bM/zPM/wDMzP/MzMzMzJnMzGbMzDPMzADMmf/MmczMmZnMmWbMmTPMmQDMZv/MZszMZpnMZmbMZjPMZgDMM//MM8zMM5nMM2bMMzPMMwDMAP/MAMzMAJnMAGbMADPMAACZ//+Z/8yZ/5mZ/2aZ/zOZ/wCZzP+ZzMyZzJmZzGaZzDOZzACZmf+ZmcyZmZmZmWaZmTOZmQCZZv+ZZsyZZpmZZmaZZjOZZgCZM/+ZM8yZM5mZM2aZMzOZMwCZAP+ZAMyZAJmZAGaZADOZAABm//9m/8xm/5lm/2Zm/zNm/wBmzP9mzMxmzJlmzGZmzDNmzABmmf9mmcxmmZlmmWZmmTNmmQBmZv9mZsxmZplmZmZmZjNmZgBmM/9mM8xmM5lmM2ZmMzNmMwBmAP9mAMxmAJlmAGZmADNmAAAz//8z/8wz/5kz/2Yz/zMz/wAzzP8zzMwzzJkzzGYzzDMzzAAzmf8zmcwzmZkzmWYzmTMzmQAzZv8zZswzZpkzZmYzZjMzZgAzM/8zM8wzM5kzM2YzMzMzMwAzAP8zAMwzAJkzAGYzADMzAAAA//8A/8wA/5kA/2YA/zMA/wAAzP8AzMwAzJkAzGYAzDMAzAAAmf8AmcwAmZkAmWYAmTMAmQAAZv8AZswAZpkAZmYAZjMAZgAAM/8AM8wAM5kAM2YAMzMAMwAAAP8AAMwAAJkAAGYAADPuAADdAAC7AACqAACIAAB3AABVAABEAAAiAAARAAAA7gAA3QAAuwAAqgAAiAAAdwAAVQAARAAAIgAAEQAAAO4AAN0AALsAAKoAAIgAAHcAAFUAAEQAACIAABHu7u7d3d27u7uqqqqIiIh3d3dVVVVEREQiIiIREREAAAD7CIKZAAAAVElEQVQoU42PQQoAIAgE9//P6z0dIt3ESq0hhGg2Fe0BPgQUqFDH50nzXpAApLAeAvSddzH6LaxKoQcC2AOxwLXp7oIbUje8ZggwIWX1zCnj9knNAEA892l3i60XAAAAAElFTkSuQmCC" ALT="ci32"></P>
+</TD>
+<TD>
+<B>Number of Samples</B> <P><B>Number of Samples</B> specifies the number of samples to read.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG src="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAACAAAAAQCAMAAABA3o1rAAADAFBMVEX//////8z//5n//2b//zP//wD/zP//zMz/zJn/zGb/zDP/zAD/mf//mcz/mZn/mWb/mTP/mQD/Zv//Zsz/Zpn/Zmb/ZjP/ZgD/M///M8z/M5n/M2b/MzP/MwD/AP//AMz/AJn/AGb/ADP/AADM///M/8zM/5nM/2bM/zPM/wDMzP/MzMzMzJnMzGbMzDPMzADMmf/MmczMmZnMmWbMmTPMmQDMZv/MZszMZpnMZmbMZjPMZgDMM//MM8zMM5nMM2bMMzPMMwDMAP/MAMzMAJnMAGbMADPMAACZ//+Z/8yZ/5mZ/2aZ/zOZ/wCZzP+ZzMyZzJmZzGaZzDOZzACZmf+ZmcyZmZmZmWaZmTOZmQCZZv+ZZsyZZpmZZmaZZjOZZgCZM/+ZM8yZM5mZM2aZMzOZMwCZAP+ZAMyZAJmZAGaZADOZAABm//9m/8xm/5lm/2Zm/zNm/wBmzP9mzMxmzJlmzGZmzDNmzABmmf9mmcxmmZlmmWZmmTNmmQBmZv9mZsxmZplmZmZmZjNmZgBmM/9mM8xmM5lmM2ZmMzNmMwBmAP9mAMxmAJlmAGZmADNmAAAz//8z/8wz/5kz/2Yz/zMz/wAzzP8zzMwzzJkzzGYzzDMzzAAzmf8zmcwzmZkzmWYzmTMzmQAzZv8zZswzZpkzZmYzZjMzZgAzM/8zM8wzM5kzM2YzMzMzMwAzAP8zAMwzAJkzAGYzADMzAAAA//8A/8wA/5kA/2YA/zMA/wAAzP8AzMwAzJkAzGYAzDMAzAAAmf8AmcwAmZkAmWYAmTMAmQAAZv8AZswAZpkAZmYAZjMAZgAAM/8AM8wAM5kAM2YAMzMAMwAAAP8AAMwAAJkAAGYAADPuAADdAAC7AACqAACIAAB3AABVAABEAAAiAAARAAAA7gAA3QAAuwAAqgAAiAAAdwAAVQAARAAAIgAAEQAAAO4AAN0AALsAAKoAAIgAAHcAAFUAAEQAACIAABHu7u7d3d27u7uqqqqIiIh3d3dVVVVEREQiIiIREREAAAD7CIKZAAAASUlEQVQoU2O4RAAwEKGAAQ+AKMCvHYRw6sdUcAmKcSkAOwjuqj8YCi5BFUAF/vwhWQG6FZgKUB2J6QZ0AFdAKKDwALza4YbgBwC5u+FDgGgzTQAAAABJRU5ErkJggg==" ALT="cenum"></P>
+</TD>
+<TD>
+<B>Sample Timing Engine</B> <P><B>Sample Timing Engine</B> specifies which timing engine to use for the task. Choose <B>Auto</B> to let the instrument use the default one.</P>
+</TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG src="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAACAAAAAQCAMAAABA3o1rAAADAFBMVEX//////8z//5n//2b//zP//wD/zP//zMz/zJn/zGb/zDP/zAD/mf//mcz/mZn/mWb/mTP/mQD/Zv//Zsz/Zpn/Zmb/ZjP/ZgD/M///M8z/M5n/M2b/MzP/MwD/AP//AMz/AJn/AGb/ADP/AADM///M/8zM/5nM/2bM/zPM/wDMzP/MzMzMzJnMzGbMzDPMzADMmf/MmczMmZnMmWbMmTPMmQDMZv/MZszMZpnMZmbMZjPMZgDMM//MM8zMM5nMM2bMMzPMMwDMAP/MAMzMAJnMAGbMADPMAACZ//+Z/8yZ/5mZ/2aZ/zOZ/wCZzP+ZzMyZzJmZzGaZzDOZzACZmf+ZmcyZmZmZmWaZmTOZmQCZZv+ZZsyZZpmZZmaZZjOZZgCZM/+ZM8yZM5mZM2aZMzOZMwCZAP+ZAMyZAJmZAGaZADOZAABm//9m/8xm/5lm/2Zm/zNm/wBmzP9mzMxmzJlmzGZmzDNmzABmmf9mmcxmmZlmmWZmmTNmmQBmZv9mZsxmZplmZmZmZjNmZgBmM/9mM8xmM5lmM2ZmMzNmMwBmAP9mAMxmAJlmAGZmADNmAAAz//8z/8wz/5kz/2Yz/zMz/wAzzP8zzMwzzJkzzGYzzDMzzAAzmf8zmcwzmZkzmWYzmTMzmQAzZv8zZswzZpkzZmYzZjMzZgAzM/8zM8wzM5kzM2YzMzMzMwAzAP8zAMwzAJkzAGYzADMzAAAA//8A/8wA/5kA/2YA/zMA/wAAzP8AzMwAzJkAzGYAzDMAzAAAmf8AmcwAmZkAmWYAmTMAmQAAZv8AZswAZpkAZmYAZjMAZgAAM/8AM8wAM5kAM2YAMzMAMwAAAP8AAMwAAJkAAGYAADPuAADdAAC7AACqAACIAAB3AABVAABEAAAiAAARAAAA7gAA3QAAuwAAqgAAiAAAdwAAVQAARAAAIgAAEQAAAO4AAN0AALsAAKoAAIgAAHcAAFUAAEQAACIAABHu7u7d3d27u7uqqqqIiIh3d3dVVVVEREQiIiIREREAAAD7CIKZAAAATklEQVQoU42PQQ4AEAwE+xL/f2QPwm6KaJcJdTDbYu2BfQgmgKDjY2XBeRwCIsaSCdwLTzvsgt9voIR6CnGDUS8BHepvkhBKKAhkPJpoOs5lKWV/O+R3AAAAAElFTkSuQmCC" ALT="ccclst"></P>
+</TD>
+<TD>
+<B>Trigger Settings</B> <P><B>Trigger Settings</B> configures the power measurement to start aquisition on the configured trigger.</P>
+<P></P>
+<P>Applicable for &quot;Configure &amp; Measure&quot; &amp; &quot;Configure Only&quot;</P>
+<P></P>
+<P>Select <B>No Trigger</B> in case of immediate aquisition. Skip <B>Digital Start Trigger Source</B> and <B>Digital Start Trigger Edge</B></P>
+<P></P>
+<P>Select <B>Digital Start</B> for triggered aquisition. Required Fields: <B>Digital Start Trigger Source</B> and <B>Digital Start Trigger Edge</B></P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG src="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAACAAAAAQCAMAAABA3o1rAAADAFBMVEX//////8z//5n//2b//zP//wD/zP//zMz/zJn/zGb/zDP/zAD/mf//mcz/mZn/mWb/mTP/mQD/Zv//Zsz/Zpn/Zmb/ZjP/ZgD/M///M8z/M5n/M2b/MzP/MwD/AP//AMz/AJn/AGb/ADP/AADM///M/8zM/5nM/2bM/zPM/wDMzP/MzMzMzJnMzGbMzDPMzADMmf/MmczMmZnMmWbMmTPMmQDMZv/MZszMZpnMZmbMZjPMZgDMM//MM8zMM5nMM2bMMzPMMwDMAP/MAMzMAJnMAGbMADPMAACZ//+Z/8yZ/5mZ/2aZ/zOZ/wCZzP+ZzMyZzJmZzGaZzDOZzACZmf+ZmcyZmZmZmWaZmTOZmQCZZv+ZZsyZZpmZZmaZZjOZZgCZM/+ZM8yZM5mZM2aZMzOZMwCZAP+ZAMyZAJmZAGaZADOZAABm//9m/8xm/5lm/2Zm/zNm/wBmzP9mzMxmzJlmzGZmzDNmzABmmf9mmcxmmZlmmWZmmTNmmQBmZv9mZsxmZplmZmZmZjNmZgBmM/9mM8xmM5lmM2ZmMzNmMwBmAP9mAMxmAJlmAGZmADNmAAAz//8z/8wz/5kz/2Yz/zMz/wAzzP8zzMwzzJkzzGYzzDMzzAAzmf8zmcwzmZkzmWYzmTMzmQAzZv8zZswzZpkzZmYzZjMzZgAzM/8zM8wzM5kzM2YzMzMzMwAzAP8zAMwzAJkzAGYzADMzAAAA//8A/8wA/5kA/2YA/zMA/wAAzP8AzMwAzJkAzGYAzDMAzAAAmf8AmcwAmZkAmWYAmTMAmQAAZv8AZswAZpkAZmYAZjMAZgAAM/8AM8wAM5kAM2YAMzMAMwAAAP8AAMwAAJkAAGYAADPuAADdAAC7AACqAACIAAB3AABVAABEAAAiAAARAAAA7gAA3QAAuwAAqgAAiAAAdwAAVQAARAAAIgAAEQAAAO4AAN0AALsAAKoAAIgAAHcAAFUAAEQAACIAABHu7u7d3d27u7uqqqqIiIh3d3dVVVVEREQiIiIREREAAAD7CIKZAAAASUlEQVQoU2O4RAAwEKGAAQ+AKMCvHYRw6sdUcAmKcSkAOwjuqj8YCi5BFUAF/vwhWQG6FZgKUB2J6QZ0AFdAKKDwALza4YbgBwC5u+FDgGgzTQAAAABJRU5ErkJggg==" ALT="cenum"></P>
+</TD>
+<TD>
+<B>Trigger Select</B> <P>The <B>Trigger Select</B> control selects which trigger type you wish to use.  Depending on the option that is currently selected, when you run the VI your task will configure the desired trigger type.</P>
+<P></P>
+<P>Note that not all hardware supports triggering--refer to your device documentation for more info.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG src="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAACAAAAAQCAMAAABA3o1rAAADAFBMVEX//////8z//5n//2b//zP//wD/zP//zMz/zJn/zGb/zDP/zAD/mf//mcz/mZn/mWb/mTP/mQD/Zv//Zsz/Zpn/Zmb/ZjP/ZgD/M///M8z/M5n/M2b/MzP/MwD/AP//AMz/AJn/AGb/ADP/AADM///M/8zM/5nM/2bM/zPM/wDMzP/MzMzMzJnMzGbMzDPMzADMmf/MmczMmZnMmWbMmTPMmQDMZv/MZszMZpnMZmbMZjPMZgDMM//MM8zMM5nMM2bMMzPMMwDMAP/MAMzMAJnMAGbMADPMAACZ//+Z/8yZ/5mZ/2aZ/zOZ/wCZzP+ZzMyZzJmZzGaZzDOZzACZmf+ZmcyZmZmZmWaZmTOZmQCZZv+ZZsyZZpmZZmaZZjOZZgCZM/+ZM8yZM5mZM2aZMzOZMwCZAP+ZAMyZAJmZAGaZADOZAABm//9m/8xm/5lm/2Zm/zNm/wBmzP9mzMxmzJlmzGZmzDNmzABmmf9mmcxmmZlmmWZmmTNmmQBmZv9mZsxmZplmZmZmZjNmZgBmM/9mM8xmM5lmM2ZmMzNmMwBmAP9mAMxmAJlmAGZmADNmAAAz//8z/8wz/5kz/2Yz/zMz/wAzzP8zzMwzzJkzzGYzzDMzzAAzmf8zmcwzmZkzmWYzmTMzmQAzZv8zZswzZpkzZmYzZjMzZgAzM/8zM8wzM5kzM2YzMzMzMwAzAP8zAMwzAJkzAGYzADMzAAAA//8A/8wA/5kA/2YA/zMA/wAAzP8AzMwAzJkAzGYAzDMAzAAAmf8AmcwAmZkAmWYAmTMAmQAAZv8AZswAZpkAZmYAZjMAZgAAM/8AM8wAM5kAM2YAMzMAMwAAAP8AAMwAAJkAAGYAADPuAADdAAC7AACqAACIAAB3AABVAABEAAAiAAARAAAA7gAA3QAAuwAAqgAAiAAAdwAAVQAARAAAIgAAEQAAAO4AAN0AALsAAKoAAIgAAHcAAFUAAEQAACIAABHu7u7d3d27u7uqqqqIiIh3d3dVVVVEREQiIiIREREAAAD7CIKZAAAATUlEQVQoU2PoJQAYiFDAgAdAFODXDkI49aMo6IVY1gsxGIsCmDoYYmD4g01BLwOSgj9kKIApwqYA7EgYE0yhuwETwBUQCig8gLjIwg8ARBWcCjRQcdoAAAAASUVORK5CYII=" ALT="cniterm"></P>
+</TD>
+<TD>
+<B>[Digital Start Trigger Source]</B> <P><B>Digital Start Trigger Source</B> specifies the name of a terminal where there is a digital signal to use as the source of the trigger.</P>
+<P></P>
+<P>Refer to the Device Routes table in Measurement and Automation Explorer to determine eligible trigger sources.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG src="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAACAAAAAQCAMAAABA3o1rAAADAFBMVEX//////8z//5n//2b//zP//wD/zP//zMz/zJn/zGb/zDP/zAD/mf//mcz/mZn/mWb/mTP/mQD/Zv//Zsz/Zpn/Zmb/ZjP/ZgD/M///M8z/M5n/M2b/MzP/MwD/AP//AMz/AJn/AGb/ADP/AADM///M/8zM/5nM/2bM/zPM/wDMzP/MzMzMzJnMzGbMzDPMzADMmf/MmczMmZnMmWbMmTPMmQDMZv/MZszMZpnMZmbMZjPMZgDMM//MM8zMM5nMM2bMMzPMMwDMAP/MAMzMAJnMAGbMADPMAACZ//+Z/8yZ/5mZ/2aZ/zOZ/wCZzP+ZzMyZzJmZzGaZzDOZzACZmf+ZmcyZmZmZmWaZmTOZmQCZZv+ZZsyZZpmZZmaZZjOZZgCZM/+ZM8yZM5mZM2aZMzOZMwCZAP+ZAMyZAJmZAGaZADOZAABm//9m/8xm/5lm/2Zm/zNm/wBmzP9mzMxmzJlmzGZmzDNmzABmmf9mmcxmmZlmmWZmmTNmmQBmZv9mZsxmZplmZmZmZjNmZgBmM/9mM8xmM5lmM2ZmMzNmMwBmAP9mAMxmAJlmAGZmADNmAAAz//8z/8wz/5kz/2Yz/zMz/wAzzP8zzMwzzJkzzGYzzDMzzAAzmf8zmcwzmZkzmWYzmTMzmQAzZv8zZswzZpkzZmYzZjMzZgAzM/8zM8wzM5kzM2YzMzMzMwAzAP8zAMwzAJkzAGYzADMzAAAA//8A/8wA/5kA/2YA/zMA/wAAzP8AzMwAzJkAzGYAzDMAzAAAmf8AmcwAmZkAmWYAmTMAmQAAZv8AZswAZpkAZmYAZjMAZgAAM/8AM8wAM5kAM2YAMzMAMwAAAP8AAMwAAJkAAGYAADPuAADdAAC7AACqAACIAAB3AABVAABEAAAiAAARAAAA7gAA3QAAuwAAqgAAiAAAdwAAVQAARAAAIgAAEQAAAO4AAN0AALsAAKoAAIgAAHcAAFUAAEQAACIAABHu7u7d3d27u7uqqqqIiIh3d3dVVVVEREQiIiIREREAAAD7CIKZAAAAVElEQVQoU42PQQoAIAgE9//P6z0dIt3ESq0hhGg2Fe0BPgQUqFDH50nzXpAApLAeAvSddzH6LaxKoQcC2AOxwLXp7oIbUje8ZggwIWX1zCnj9knNAEA892l3i60XAAAAAElFTkSuQmCC" ALT="ci32"></P>
+</TD>
+<TD>
+<B>[Digital Start Trigger Edge]</B> <P><B>Digital Start Trigger Edge</B> specifies on which edge of the digital signal to start acquiring or generating samples.</P>
+</TD>
+</TR>
+</Table>
+</UL>
+</UL>
+<HR>
+<H3>List of SubVIs and Express VIs with Configuration Information</H3>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG src="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAADAFBMVEX//////8z//5n//2b//zP//wD/zP//zMz/zJn/zGb/zDP/zAD/mf//mcz/mZn/mWb/mTP/mQD/Zv//Zsz/Zpn/Zmb/ZjP/ZgD/M///M8z/M5n/M2b/MzP/MwD/AP//AMz/AJn/AGb/ADP/AADM///M/8zM/5nM/2bM/zPM/wDMzP/MzMzMzJnMzGbMzDPMzADMmf/MmczMmZnMmWbMmTPMmQDMZv/MZszMZpnMZmbMZjPMZgDMM//MM8zMM5nMM2bMMzPMMwDMAP/MAMzMAJnMAGbMADPMAACZ//+Z/8yZ/5mZ/2aZ/zOZ/wCZzP+ZzMyZzJmZzGaZzDOZzACZmf+ZmcyZmZmZmWaZmTOZmQCZZv+ZZsyZZpmZZmaZZjOZZgCZM/+ZM8yZM5mZM2aZMzOZMwCZAP+ZAMyZAJmZAGaZADOZAABm//9m/8xm/5lm/2Zm/zNm/wBmzP9mzMxmzJlmzGZmzDNmzABmmf9mmcxmmZlmmWZmmTNmmQBmZv9mZsxmZplmZmZmZjNmZgBmM/9mM8xmM5lmM2ZmMzNmMwBmAP9mAMxmAJlmAGZmADNmAAAz//8z/8wz/5kz/2Yz/zMz/wAzzP8zzMwzzJkzzGYzzDMzzAAzmf8zmcwzmZkzmWYzmTMzmQAzZv8zZswzZpkzZmYzZjMzZgAzM/8zM8wzM5kzM2YzMzMzMwAzAP8zAMwzAJkzAGYzADMzAAAA//8A/8wA/5kA/2YA/zMA/wAAzP8AzMwAzJkAzGYAzDMAzAAAmf8AmcwAmZkAmWYAmTMAmQAAZv8AZswAZpkAZmYAZjMAZgAAM/8AM8wAM5kAM2YAMzMAMwAAAP8AAMwAAJkAAGYAADPuAADdAAC7AACqAACIAAB3AABVAABEAAAiAAARAAAA7gAA3QAAuwAAqgAAiAAAdwAAVQAARAAAIgAAEQAAAO4AAN0AALsAAKoAAIgAAHcAAFUAAEQAACIAABHu7u7d3d27u7uqqqqIiIh3d3dVVVVEREQiIiIREREAAAD7CIKZAAAAnUlEQVQ4T61SSRKAMAjL///WN6FCw1K7eDCOMGAIaUfIAZC2xUcCAI33+2StrUeCdi3Y03tFIRPQXgocAUergvpBN2DThbDBL4TjVWMLJTw8ZumVdUiw3BuaFwSJMgaKgpfubuIhRiSE1iBBh92+h2SFkduiRwUMyweCfy1G04qqMFmxRFrh5/ATVEJakEUHAu/urLAnLDzMIcd/8gLHU+3kRiaTZQAAAABJRU5ErkJggg==" ALT="DAQ_Power Supply Source and Measure.lvlib:Trigger Settings.ctl"></P>
+</TD>
+<TD>
+<B><P>DAQ_Power Supply Source and Measure.lvlib:Trigger Settings.ctl</P>
+</B><P>/workspace/source/Library/Power Supply Source and Measure/Typedefs/Trigger Settings.ctl</P>
+</TD>
+</TR>
+<TR valign=TOP>
+<TD>
+<P><IMG src="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAADAFBMVEX//////8z//5n//2b//zP//wD/zP//zMz/zJn/zGb/zDP/zAD/mf//mcz/mZn/mWb/mTP/mQD/Zv//Zsz/Zpn/Zmb/ZjP/ZgD/M///M8z/M5n/M2b/MzP/MwD/AP//AMz/AJn/AGb/ADP/AADM///M/8zM/5nM/2bM/zPM/wDMzP/MzMzMzJnMzGbMzDPMzADMmf/MmczMmZnMmWbMmTPMmQDMZv/MZszMZpnMZmbMZjPMZgDMM//MM8zMM5nMM2bMMzPMMwDMAP/MAMzMAJnMAGbMADPMAACZ//+Z/8yZ/5mZ/2aZ/zOZ/wCZzP+ZzMyZzJmZzGaZzDOZzACZmf+ZmcyZmZmZmWaZmTOZmQCZZv+ZZsyZZpmZZmaZZjOZZgCZM/+ZM8yZM5mZM2aZMzOZMwCZAP+ZAMyZAJmZAGaZADOZAABm//9m/8xm/5lm/2Zm/zNm/wBmzP9mzMxmzJlmzGZmzDNmzABmmf9mmcxmmZlmmWZmmTNmmQBmZv9mZsxmZplmZmZmZjNmZgBmM/9mM8xmM5lmM2ZmMzNmMwBmAP9mAMxmAJlmAGZmADNmAAAz//8z/8wz/5kz/2Yz/zMz/wAzzP8zzMwzzJkzzGYzzDMzzAAzmf8zmcwzmZkzmWYzmTMzmQAzZv8zZswzZpkzZmYzZjMzZgAzM/8zM8wzM5kzM2YzMzMzMwAzAP8zAMwzAJkzAGYzADMzAAAA//8A/8wA/5kA/2YA/zMA/wAAzP8AzMwAzJkAzGYAzDMAzAAAmf8AmcwAmZkAmWYAmTMAmQAAZv8AZswAZpkAZmYAZjMAZgAAM/8AM8wAM5kAM2YAMzMAMwAAAP8AAMwAAJkAAGYAADPuAADdAAC7AACqAACIAAB3AABVAABEAAAiAAARAAAA7gAA3QAAuwAAqgAAiAAAdwAAVQAARAAAIgAAEQAAAO4AAN0AALsAAKoAAIgAAHcAAFUAAEQAACIAABHu7u7d3d27u7uqqqqIiIh3d3dVVVVEREQiIiIREREAAAD7CIKZAAAAjElEQVQ4T62RXRKAIAiE9/5380xULOiaE/bgqjQyn/wF2wjWSv0EALi9z/P1O30JuJeGK3xTBAXQlgj5BPl0juD1IArg6wkodATYjhqlTgFMZXE3+DaTCO4zbnR6AcYKswCSgnkK4FXDtw4BPgY9UkZvuZs+EunC4gjwHpmEGVNIlB3TTID8okJHgI0ud2bS/yyoJTcAAAAASUVORK5CYII=" ALT="DAQ_Power Supply Source and Measure.lvlib:Timing Settings.ctl"></P>
+</TD>
+<TD>
+<B><P>DAQ_Power Supply Source and Measure.lvlib:Timing Settings.ctl</P>
+</B><P>/workspace/source/Library/Power Supply Source and Measure/Typedefs/Timing Settings.ctl</P>
+</TD>
+</TR>
+</Table>
+<HR>
+<H3>VI Revision History</H3>
+<P>&quot;DAQ_Power Supply Source and Measure.lvlib:Timing and Trigger Settings.ctl History&quot;</P>
+<P>Current Revision:   24</P>
+<HR>
+<H3>Position in Hierarchy</H3>
+<P><IMG src="data:image/png;base64, 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" ALT="DAQ_Power Supply Source and Measure.lvlib:Timing and Trigger Settings.ctl"></P>
+<HR>
+<H3>Iconified Cluster Constants</H3>
+</BODY>
+</HTML>
