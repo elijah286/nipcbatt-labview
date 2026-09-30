@@ -1,0 +1,48 @@
+<HTML>
+<HEAD>
+<TITLE>DAQ_Digital Edge Count Measurement.lvlib:Wait Type.ctl</TITLE>
+<META NAME="Author" CONTENT="">
+<META NAME="GENERATOR" CONTENT="G Development Environment">
+</HEAD>
+<BODY BGCOLOR="#FFFFFF">
+<A NAME="DAQ_Digital Edge Count Measurement.lvlib:Wait Type.ctl"></A><H2>DAQ_Digital Edge Count Measurement.lvlib:Wait Type.ctl</H2>
+<P><B>Wait Type</B> specifies whether to use a software wait or hardware window.</P>
+<P></P>
+<P>Software Wait Type - Initiates the counting operation, waits for the duration specified and reads the current value of the counter. Use it for low frequency operations. If the Execution option is Measure Only, It will return the counter value immeditely and do not wait for the specified duration. User has to introduce the required delay between Configure Only and Measure Only calls.</P>
+<P></P>
+<P>Hardware Wait Type - Creates a measurement window using the Timer task. It will provide a precise edge counting for the specifed duration. Use this for high frequency operations.</P>
+<HR>
+<H3>Connector Pane</H3>
+<P><IMG src="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAADAFBMVEX//////8z//5n//2b//zP//wD/zP//zMz/zJn/zGb/zDP/zAD/mf//mcz/mZn/mWb/mTP/mQD/Zv//Zsz/Zpn/Zmb/ZjP/ZgD/M///M8z/M5n/M2b/MzP/MwD/AP//AMz/AJn/AGb/ADP/AADM///M/8zM/5nM/2bM/zPM/wDMzP/MzMzMzJnMzGbMzDPMzADMmf/MmczMmZnMmWbMmTPMmQDMZv/MZszMZpnMZmbMZjPMZgDMM//MM8zMM5nMM2bMMzPMMwDMAP/MAMzMAJnMAGbMADPMAACZ//+Z/8yZ/5mZ/2aZ/zOZ/wCZzP+ZzMyZzJmZzGaZzDOZzACZmf+ZmcyZmZmZmWaZmTOZmQCZZv+ZZsyZZpmZZmaZZjOZZgCZM/+ZM8yZM5mZM2aZMzOZMwCZAP+ZAMyZAJmZAGaZADOZAABm//9m/8xm/5lm/2Zm/zNm/wBmzP9mzMxmzJlmzGZmzDNmzABmmf9mmcxmmZlmmWZmmTNmmQBmZv9mZsxmZplmZmZmZjNmZgBmM/9mM8xmM5lmM2ZmMzNmMwBmAP9mAMxmAJlmAGZmADNmAAAz//8z/8wz/5kz/2Yz/zMz/wAzzP8zzMwzzJkzzGYzzDMzzAAzmf8zmcwzmZkzmWYzmTMzmQAzZv8zZswzZpkzZmYzZjMzZgAzM/8zM8wzM5kzM2YzMzMzMwAzAP8zAMwzAJkzAGYzADMzAAAA//8A/8wA/5kA/2YA/zMA/wAAzP8AzMwAzJkAzGYAzDMAzAAAmf8AmcwAmZkAmWYAmTMAmQAAZv8AZswAZpkAZmYAZjMAZgAAM/8AM8wAM5kAM2YAMzMAMwAAAP8AAMwAAJkAAGYAADPuAADdAAC7AACqAACIAAB3AABVAABEAAAiAAARAAAA7gAA3QAAuwAAqgAAiAAAdwAAVQAARAAAIgAAEQAAAO4AAN0AALsAAKoAAIgAAHcAAFUAAEQAACIAABHu7u7d3d27u7uqqqqIiIh3d3dVVVVEREQiIiIREREAAAD7CIKZAAAAdUlEQVQ4T62QUQ7AIAhDe/+7eaZuQ1GcDPZBI4SQRyWAicAW6jcAYKY7Wg8LPA+zkOcAY1jY2MH5ItvhUyVAemqEqgTYg5QmV9tWE1i+b4DQdABqwAQIHHxVAn27cQLvDrofd9sdgA7TdA9A6xjwdvBVAiS6ALuBrDDfA4uxAAAAAElFTkSuQmCC" ALT="DAQ_Digital Edge Count Measurement.lvlib:Wait Type.ctl"></P>
+<HR>
+<H3>Front Panel</H3>
+<P><IMG src="data:image/png;base64, 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" ALT="DAQ_Digital Edge Count Measurement.lvlib:Wait Type.ctl"></P>
+<HR>
+<H3>Controls and Indicators</H3>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG src="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAACAAAAAQCAMAAABA3o1rAAADAFBMVEX//////8z//5n//2b//zP//wD/zP//zMz/zJn/zGb/zDP/zAD/mf//mcz/mZn/mWb/mTP/mQD/Zv//Zsz/Zpn/Zmb/ZjP/ZgD/M///M8z/M5n/M2b/MzP/MwD/AP//AMz/AJn/AGb/ADP/AADM///M/8zM/5nM/2bM/zPM/wDMzP/MzMzMzJnMzGbMzDPMzADMmf/MmczMmZnMmWbMmTPMmQDMZv/MZszMZpnMZmbMZjPMZgDMM//MM8zMM5nMM2bMMzPMMwDMAP/MAMzMAJnMAGbMADPMAACZ//+Z/8yZ/5mZ/2aZ/zOZ/wCZzP+ZzMyZzJmZzGaZzDOZzACZmf+ZmcyZmZmZmWaZmTOZmQCZZv+ZZsyZZpmZZmaZZjOZZgCZM/+ZM8yZM5mZM2aZMzOZMwCZAP+ZAMyZAJmZAGaZADOZAABm//9m/8xm/5lm/2Zm/zNm/wBmzP9mzMxmzJlmzGZmzDNmzABmmf9mmcxmmZlmmWZmmTNmmQBmZv9mZsxmZplmZmZmZjNmZgBmM/9mM8xmM5lmM2ZmMzNmMwBmAP9mAMxmAJlmAGZmADNmAAAz//8z/8wz/5kz/2Yz/zMz/wAzzP8zzMwzzJkzzGYzzDMzzAAzmf8zmcwzmZkzmWYzmTMzmQAzZv8zZswzZpkzZmYzZjMzZgAzM/8zM8wzM5kzM2YzMzMzMwAzAP8zAMwzAJkzAGYzADMzAAAA//8A/8wA/5kA/2YA/zMA/wAAzP8AzMwAzJkAzGYAzDMAzAAAmf8AmcwAmZkAmWYAmTMAmQAAZv8AZswAZpkAZmYAZjMAZgAAM/8AM8wAM5kAM2YAMzMAMwAAAP8AAMwAAJkAAGYAADPuAADdAAC7AACqAACIAAB3AABVAABEAAAiAAARAAAA7gAA3QAAuwAAqgAAiAAAdwAAVQAARAAAIgAAEQAAAO4AAN0AALsAAKoAAIgAAHcAAFUAAEQAACIAABHu7u7d3d27u7uqqqqIiIh3d3dVVVVEREQiIiIREREAAAD7CIKZAAAASUlEQVQoU2O4RAAwEKGAAQ+AKMCvHYRw6sdUcAmKweAPpgKwg+Cu+vMHXcElqIJLRCv4Q6oV6I7EogAFIHxBKKDwALza4YbgBwC9/OSLdVQNggAAAABJRU5ErkJggg==" ALT="cenum"></P>
+</TD>
+<TD>
+<B>Wait Type</B> <P><B>Wait Type</B> specifies whether to use a software wait or hardware window.</P>
+<P></P>
+<P>Software Wait Type - Initiates the counting operation, waits for the duration specified and reads the current value of the counter. Use it for low frequency operations. If the Execution option is Measure Only, It will return the counter value immeditely and do not wait for the specified duration. User has to introduce the required delay between Configure Only and Measure Only calls.</P>
+<P></P>
+<P>Hardware Wait Type - Creates a measurement window using the Timer task. It will provide a precise edge counting for the specifed duration. Use this for high frequency operations.</P>
+</TD>
+</TR>
+</Table>
+<HR>
+<H3>List of SubVIs and Express VIs with Configuration Information</H3>
+<HR>
+<H3>VI Revision History</H3>
+<P>&quot;DAQ_Digital Edge Count Measurement.lvlib:Wait Type.ctl History&quot;</P>
+<P>Current Revision:   10</P>
+<HR>
+<H3>Position in Hierarchy</H3>
+<P><IMG src="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAADYAAAB1CAMAAAAyV+ItAAADAFBMVEX//////8z//5n//2b//zP//wD/zP//zMz/zJn/zGb/zDP/zAD/mf//mcz/mZn/mWb/mTP/mQD/Zv//Zsz/Zpn/Zmb/ZjP/ZgD/M///M8z/M5n/M2b/MzP/MwD/AP//AMz/AJn/AGb/ADP/AADM///M/8zM/5nM/2bM/zPM/wDMzP/MzMzMzJnMzGbMzDPMzADMmf/MmczMmZnMmWbMmTPMmQDMZv/MZszMZpnMZmbMZjPMZgDMM//MM8zMM5nMM2bMMzPMMwDMAP/MAMzMAJnMAGbMADPMAACZ//+Z/8yZ/5mZ/2aZ/zOZ/wCZzP+ZzMyZzJmZzGaZzDOZzACZmf+ZmcyZmZmZmWaZmTOZmQCZZv+ZZsyZZpmZZmaZZjOZZgCZM/+ZM8yZM5mZM2aZMzOZMwCZAP+ZAMyZAJmZAGaZADOZAABm//9m/8xm/5lm/2Zm/zNm/wBmzP9mzMxmzJlmzGZmzDNmzABmmf9mmcxmmZlmmWZmmTNmmQBmZv9mZsxmZplmZmZmZjNmZgBmM/9mM8xmM5lmM2ZmMzNmMwBmAP9mAMxmAJlmAGZmADNmAAAz//8z/8wz/5kz/2Yz/zMz/wAzzP8zzMwzzJkzzGYzzDMzzAAzmf8zmcwzmZkzmWYzmTMzmQAzZv8zZswzZpkzZmYzZjMzZgAzM/8zM8wzM5kzM2YzMzMzMwAzAP8zAMwzAJkzAGYzADMzAAAA//8A/8wA/5kA/2YA/zMA/wAAzP8AzMwAzJkAzGYAzDMAzAAAmf8AmcwAmZkAmWYAmTMAmQAAZv8AZswAZpkAZmYAZjMAZgAAM/8AM8wAM5kAM2YAMzMAMwAAAP8AAMwAAJkAAGYAADPuAADdAAC7AACqAACIAAB3AABVAABEAAAiAAARAAAA7gAA3QAAuwAAqgAAiAAAdwAAVQAARAAAIgAAEQAAAO4AAN0AALsAAKoAAIgAAHcAAFUAAEQAACIAABHu7u7d3d27u7uqqqqIiIh3d3dVVVVEREQiIiIREREAAAD7CIKZAAABmUlEQVRYR+2WTW7EIAyF2eQ0OUgP0oOy625Wc5vZuPwZQ8DGoLaJOnmTICvjj4cBIYxZ1teESoztsNGbYSCKx3ZBAga763VnGhZzduAt+w2LLbqt1rZzs+jHwWOW0uwhEjC752SbuRT9OGbdfxZzcXAYqbAtb7QpzGxm02JhAWxy8z8oRspjH1nBjRwjZsfYhpxBjsfMC5VqI0cRC5vLYm0AhaNb0iq1j2FViYtDF7GwLbCm5KfFytp85AuuUlvMD7OszUP+I4c9s7JPdPJ98ctdYDSHERI3V71u5DTA6FConYZYPm6Ck/YIogMvOCkPvOJ4fV33eBXFYqQmu5vaYnXDpHax6PRHWCpMxI6iZBAuT434mRxK7pjVjTW6sUY31uifYJ8TOhMzKp2PwUAc9hD1K5gLcuPeR3zHmH9MDsKjxpJR6GECOwQKbK02VhfBFjeXEXUtLN3Q4o0LoPwsY0AYjUGHRa8JDM1gCZt26+taWJyLtGT6dcPZwEmZwAwaQfVVhWG8gulr6+si2EAMptDJmFqnYbdO1DfDkqmaNsla2QAAAABJRU5ErkJggg==" ALT="DAQ_Digital Edge Count Measurement.lvlib:Wait Type.ctl"></P>
+<HR>
+<H3>Iconified Cluster Constants</H3>
+</BODY>
+</HTML>

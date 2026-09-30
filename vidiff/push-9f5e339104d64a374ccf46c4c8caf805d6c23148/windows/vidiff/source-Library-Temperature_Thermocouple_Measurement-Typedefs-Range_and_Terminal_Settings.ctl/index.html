@@ -1,0 +1,176 @@
+<HTML>
+<HEAD>
+<TITLE>DAQ_Temperature Thermocouple Measurement.lvlib:Range and Terminal Settings.ctl</TITLE>
+<META NAME="Author" CONTENT="">
+<META NAME="GENERATOR" CONTENT="G Development Environment">
+</HEAD>
+<BODY BGCOLOR="#FFFFFF">
+<A NAME="DAQ_Temperature Thermocouple Measurement.lvlib:Range and Terminal Settings.ctl"></A><H2>DAQ_Temperature Thermocouple Measurement.lvlib:Range and Terminal Settings.ctl</H2>
+<P><B>Range and Terminal Settings </B></P>
+<P><B>Global Settings </B>configures the range and terminal settings for all analog input voltage channels except the channels specified in the specific channel settings</P>
+<P></P>
+<P><B>Specific Channel Settings</B> the range and terminal settings for the physical analog input voltage channels. If the channels are specified in the list, the global settings will be applied.</P>
+<HR>
+<H3>Connector Pane</H3>
+<P><IMG src="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAADAFBMVEX//////8z//5n//2b//zP//wD/zP//zMz/zJn/zGb/zDP/zAD/mf//mcz/mZn/mWb/mTP/mQD/Zv//Zsz/Zpn/Zmb/ZjP/ZgD/M///M8z/M5n/M2b/MzP/MwD/AP//AMz/AJn/AGb/ADP/AADM///M/8zM/5nM/2bM/zPM/wDMzP/MzMzMzJnMzGbMzDPMzADMmf/MmczMmZnMmWbMmTPMmQDMZv/MZszMZpnMZmbMZjPMZgDMM//MM8zMM5nMM2bMMzPMMwDMAP/MAMzMAJnMAGbMADPMAACZ//+Z/8yZ/5mZ/2aZ/zOZ/wCZzP+ZzMyZzJmZzGaZzDOZzACZmf+ZmcyZmZmZmWaZmTOZmQCZZv+ZZsyZZpmZZmaZZjOZZgCZM/+ZM8yZM5mZM2aZMzOZMwCZAP+ZAMyZAJmZAGaZADOZAABm//9m/8xm/5lm/2Zm/zNm/wBmzP9mzMxmzJlmzGZmzDNmzABmmf9mmcxmmZlmmWZmmTNmmQBmZv9mZsxmZplmZmZmZjNmZgBmM/9mM8xmM5lmM2ZmMzNmMwBmAP9mAMxmAJlmAGZmADNmAAAz//8z/8wz/5kz/2Yz/zMz/wAzzP8zzMwzzJkzzGYzzDMzzAAzmf8zmcwzmZkzmWYzmTMzmQAzZv8zZswzZpkzZmYzZjMzZgAzM/8zM8wzM5kzM2YzMzMzMwAzAP8zAMwzAJkzAGYzADMzAAAA//8A/8wA/5kA/2YA/zMA/wAAzP8AzMwAzJkAzGYAzDMAzAAAmf8AmcwAmZkAmWYAmTMAmQAAZv8AZswAZpkAZmYAZjMAZgAAM/8AM8wAM5kAM2YAMzMAMwAAAP8AAMwAAJkAAGYAADPuAADdAAC7AACqAACIAAB3AABVAABEAAAiAAARAAAA7gAA3QAAuwAAqgAAiAAAdwAAVQAARAAAIgAAEQAAAO4AAN0AALsAAKoAAIgAAHcAAFUAAEQAACIAABHu7u7d3d27u7uqqqqIiIh3d3dVVVVEREQiIiIREREAAAD7CIKZAAAAgElEQVQ4T71QgQ3AIAjj/9+8qQYEYVNxW8waIYq1FggbEEqKVwQikigcM0KhFm3lBMcnhbWHGY4QtqOmFL8R2AtnPssCtGYELUuoKAYFtBMsIRJko017uhN6Gj0kOEVQw/qz9aQRLHvdGzUFmw3QpxKupgrxi4tCeBKu1nhC2KACwQbj2okTf4MAAAAASUVORK5CYII=" ALT="DAQ_Temperature Thermocouple Measurement.lvlib:Range and Terminal Settings.ctl"></P>
+<HR>
+<H3>Front Panel</H3>
+<P><IMG src="data:image/png;base64, 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" ALT="DAQ_Temperature Thermocouple Measurement.lvlib:Range and Terminal Settings.ctl"></P>
+<HR>
+<H3>Controls and Indicators</H3>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG src="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAACAAAAAQCAMAAABA3o1rAAADAFBMVEX//////8z//5n//2b//zP//wD/zP//zMz/zJn/zGb/zDP/zAD/mf//mcz/mZn/mWb/mTP/mQD/Zv//Zsz/Zpn/Zmb/ZjP/ZgD/M///M8z/M5n/M2b/MzP/MwD/AP//AMz/AJn/AGb/ADP/AADM///M/8zM/5nM/2bM/zPM/wDMzP/MzMzMzJnMzGbMzDPMzADMmf/MmczMmZnMmWbMmTPMmQDMZv/MZszMZpnMZmbMZjPMZgDMM//MM8zMM5nMM2bMMzPMMwDMAP/MAMzMAJnMAGbMADPMAACZ//+Z/8yZ/5mZ/2aZ/zOZ/wCZzP+ZzMyZzJmZzGaZzDOZzACZmf+ZmcyZmZmZmWaZmTOZmQCZZv+ZZsyZZpmZZmaZZjOZZgCZM/+ZM8yZM5mZM2aZMzOZMwCZAP+ZAMyZAJmZAGaZADOZAABm//9m/8xm/5lm/2Zm/zNm/wBmzP9mzMxmzJlmzGZmzDNmzABmmf9mmcxmmZlmmWZmmTNmmQBmZv9mZsxmZplmZmZmZjNmZgBmM/9mM8xmM5lmM2ZmMzNmMwBmAP9mAMxmAJlmAGZmADNmAAAz//8z/8wz/5kz/2Yz/zMz/wAzzP8zzMwzzJkzzGYzzDMzzAAzmf8zmcwzmZkzmWYzmTMzmQAzZv8zZswzZpkzZmYzZjMzZgAzM/8zM8wzM5kzM2YzMzMzMwAzAP8zAMwzAJkzAGYzADMzAAAA//8A/8wA/5kA/2YA/zMA/wAAzP8AzMwAzJkAzGYAzDMAzAAAmf8AmcwAmZkAmWYAmTMAmQAAZv8AZswAZpkAZmYAZjMAZgAAM/8AM8wAM5kAM2YAMzMAMwAAAP8AAMwAAJkAAGYAADPuAADdAAC7AACqAACIAAB3AABVAABEAAAiAAARAAAA7gAA3QAAuwAAqgAAiAAAdwAAVQAARAAAIgAAEQAAAO4AAN0AALsAAKoAAIgAAHcAAFUAAEQAACIAABHu7u7d3d27u7uqqqqIiIh3d3dVVVVEREQiIiIREREAAAD7CIKZAAAAU0lEQVQoU42PyQ0AIAgEtxL6L5KHBwQvXJ0oJjoLEfIAHwIIJvB4W1mwH4tgEXhpN7oJvgeqWYe7EBZ8ThV0EuLFRsnRYRXkFBLGL664QKDxaMIpHTwuFZcfYJwAAAAASUVORK5CYII=" ALT="ccclst"></P>
+</TD>
+<TD>
+<B>Range and Terminal Settings</B> <P><B>Range and Terminal Settings </B></P>
+<P>Applicable for &quot;Configure &amp; Measure&quot; &amp; &quot;Configure Only&quot;</P>
+<P></P>
+<P><B>Global Settings </B>configures the range and terminal settings for all analog input voltage channels except the channels specified in the specific channel settings</P>
+<P></P>
+<P><B>Specific Channel Settings</B> the range and terminal settings for the physical analog input voltage channels. If the channels are not specified in the list, the global settings will be applied.</P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG src="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAACAAAAAQCAMAAABA3o1rAAADAFBMVEX//////8z//5n//2b//zP//wD/zP//zMz/zJn/zGb/zDP/zAD/mf//mcz/mZn/mWb/mTP/mQD/Zv//Zsz/Zpn/Zmb/ZjP/ZgD/M///M8z/M5n/M2b/MzP/MwD/AP//AMz/AJn/AGb/ADP/AADM///M/8zM/5nM/2bM/zPM/wDMzP/MzMzMzJnMzGbMzDPMzADMmf/MmczMmZnMmWbMmTPMmQDMZv/MZszMZpnMZmbMZjPMZgDMM//MM8zMM5nMM2bMMzPMMwDMAP/MAMzMAJnMAGbMADPMAACZ//+Z/8yZ/5mZ/2aZ/zOZ/wCZzP+ZzMyZzJmZzGaZzDOZzACZmf+ZmcyZmZmZmWaZmTOZmQCZZv+ZZsyZZpmZZmaZZjOZZgCZM/+ZM8yZM5mZM2aZMzOZMwCZAP+ZAMyZAJmZAGaZADOZAABm//9m/8xm/5lm/2Zm/zNm/wBmzP9mzMxmzJlmzGZmzDNmzABmmf9mmcxmmZlmmWZmmTNmmQBmZv9mZsxmZplmZmZmZjNmZgBmM/9mM8xmM5lmM2ZmMzNmMwBmAP9mAMxmAJlmAGZmADNmAAAz//8z/8wz/5kz/2Yz/zMz/wAzzP8zzMwzzJkzzGYzzDMzzAAzmf8zmcwzmZkzmWYzmTMzmQAzZv8zZswzZpkzZmYzZjMzZgAzM/8zM8wzM5kzM2YzMzMzMwAzAP8zAMwzAJkzAGYzADMzAAAA//8A/8wA/5kA/2YA/zMA/wAAzP8AzMwAzJkAzGYAzDMAzAAAmf8AmcwAmZkAmWYAmTMAmQAAZv8AZswAZpkAZmYAZjMAZgAAM/8AM8wAM5kAM2YAMzMAMwAAAP8AAMwAAJkAAGYAADPuAADdAAC7AACqAACIAAB3AABVAABEAAAiAAARAAAA7gAA3QAAuwAAqgAAiAAAdwAAVQAARAAAIgAAEQAAAO4AAN0AALsAAKoAAIgAAHcAAFUAAEQAACIAABHu7u7d3d27u7uqqqqIiIh3d3dVVVVEREQiIiIREREAAAD7CIKZAAAAU0lEQVQoU42PyQ0AIAgEtxL6L5KHBwQvXJ0oJjoLEfIAHwIIJvB4W1mwH4tgEXhpN7oJvgeqWYe7EBZ8ThV0EuLFRsnRYRXkFBLGL664QKDxaMIpHTwuFZcfYJwAAAAASUVORK5CYII=" ALT="ccclst"></P>
+</TD>
+<TD>
+<B>Global Settings</B> <P><B>Global Settings </B>configures the range and terminal settings for all analog input voltage channels except the channels specified in the specific channel settings</P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG src="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAACAAAAAQCAMAAABA3o1rAAADAFBMVEX//////8z//5n//2b//zP//wD/zP//zMz/zJn/zGb/zDP/zAD/mf//mcz/mZn/mWb/mTP/mQD/Zv//Zsz/Zpn/Zmb/ZjP/ZgD/M///M8z/M5n/M2b/MzP/MwD/AP//AMz/AJn/AGb/ADP/AADM///M/8zM/5nM/2bM/zPM/wDMzP/MzMzMzJnMzGbMzDPMzADMmf/MmczMmZnMmWbMmTPMmQDMZv/MZszMZpnMZmbMZjPMZgDMM//MM8zMM5nMM2bMMzPMMwDMAP/MAMzMAJnMAGbMADPMAACZ//+Z/8yZ/5mZ/2aZ/zOZ/wCZzP+ZzMyZzJmZzGaZzDOZzACZmf+ZmcyZmZmZmWaZmTOZmQCZZv+ZZsyZZpmZZmaZZjOZZgCZM/+ZM8yZM5mZM2aZMzOZMwCZAP+ZAMyZAJmZAGaZADOZAABm//9m/8xm/5lm/2Zm/zNm/wBmzP9mzMxmzJlmzGZmzDNmzABmmf9mmcxmmZlmmWZmmTNmmQBmZv9mZsxmZplmZmZmZjNmZgBmM/9mM8xmM5lmM2ZmMzNmMwBmAP9mAMxmAJlmAGZmADNmAAAz//8z/8wz/5kz/2Yz/zMz/wAzzP8zzMwzzJkzzGYzzDMzzAAzmf8zmcwzmZkzmWYzmTMzmQAzZv8zZswzZpkzZmYzZjMzZgAzM/8zM8wzM5kzM2YzMzMzMwAzAP8zAMwzAJkzAGYzADMzAAAA//8A/8wA/5kA/2YA/zMA/wAAzP8AzMwAzJkAzGYAzDMAzAAAmf8AmcwAmZkAmWYAmTMAmQAAZv8AZswAZpkAZmYAZjMAZgAAM/8AM8wAM5kAM2YAMzMAMwAAAP8AAMwAAJkAAGYAADPuAADdAAC7AACqAACIAAB3AABVAABEAAAiAAARAAAA7gAA3QAAuwAAqgAAiAAAdwAAVQAARAAAIgAAEQAAAO4AAN0AALsAAKoAAIgAAHcAAFUAAEQAACIAABHu7u7d3d27u7uqqqqIiIh3d3dVVVVEREQiIiIREREAAAD7CIKZAAAAS0lEQVQoU42PwQ0AIAgD2cL99+RhrImCocUL8eO1qI0G+xBMsAUdX0PzUUDgnLj3R0gDwSshNpRCavBO4I+EkoWC+wtK2EeQ8VOimbAZJ9j1+sF+AAAAAElFTkSuQmCC" ALT="cdbl"></P>
+</TD>
+<TD>
+<B>Min Temp (deg C)</B> <P>Specifies the <B>minimum temperature</B> you expect to measure in degC.</P>
+<P></P>
+<P>This value is used to help determine the range of the ADC. The actual range will be coerced to one that your hardware supports. Refer to your device documentation for a list of available ranges.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG src="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAACAAAAAQCAMAAABA3o1rAAADAFBMVEX//////8z//5n//2b//zP//wD/zP//zMz/zJn/zGb/zDP/zAD/mf//mcz/mZn/mWb/mTP/mQD/Zv//Zsz/Zpn/Zmb/ZjP/ZgD/M///M8z/M5n/M2b/MzP/MwD/AP//AMz/AJn/AGb/ADP/AADM///M/8zM/5nM/2bM/zPM/wDMzP/MzMzMzJnMzGbMzDPMzADMmf/MmczMmZnMmWbMmTPMmQDMZv/MZszMZpnMZmbMZjPMZgDMM//MM8zMM5nMM2bMMzPMMwDMAP/MAMzMAJnMAGbMADPMAACZ//+Z/8yZ/5mZ/2aZ/zOZ/wCZzP+ZzMyZzJmZzGaZzDOZzACZmf+ZmcyZmZmZmWaZmTOZmQCZZv+ZZsyZZpmZZmaZZjOZZgCZM/+ZM8yZM5mZM2aZMzOZMwCZAP+ZAMyZAJmZAGaZADOZAABm//9m/8xm/5lm/2Zm/zNm/wBmzP9mzMxmzJlmzGZmzDNmzABmmf9mmcxmmZlmmWZmmTNmmQBmZv9mZsxmZplmZmZmZjNmZgBmM/9mM8xmM5lmM2ZmMzNmMwBmAP9mAMxmAJlmAGZmADNmAAAz//8z/8wz/5kz/2Yz/zMz/wAzzP8zzMwzzJkzzGYzzDMzzAAzmf8zmcwzmZkzmWYzmTMzmQAzZv8zZswzZpkzZmYzZjMzZgAzM/8zM8wzM5kzM2YzMzMzMwAzAP8zAMwzAJkzAGYzADMzAAAA//8A/8wA/5kA/2YA/zMA/wAAzP8AzMwAzJkAzGYAzDMAzAAAmf8AmcwAmZkAmWYAmTMAmQAAZv8AZswAZpkAZmYAZjMAZgAAM/8AM8wAM5kAM2YAMzMAMwAAAP8AAMwAAJkAAGYAADPuAADdAAC7AACqAACIAAB3AABVAABEAAAiAAARAAAA7gAA3QAAuwAAqgAAiAAAdwAAVQAARAAAIgAAEQAAAO4AAN0AALsAAKoAAIgAAHcAAFUAAEQAACIAABHu7u7d3d27u7uqqqqIiIh3d3dVVVVEREQiIiIREREAAAD7CIKZAAAAS0lEQVQoU42PwQ0AIAgD2cL99+RhrImCocUL8eO1qI0G+xBMsAUdX0PzUUDgnLj3R0gDwSshNpRCavBO4I+EkoWC+wtK2EeQ8VOimbAZJ9j1+sF+AAAAAElFTkSuQmCC" ALT="cdbl"></P>
+</TD>
+<TD>
+<B>Max Temp (deg C)</B> <P>pecifies the <B>maximum temperature</B> you expect to measure in degC.</P>
+<P></P>
+<P>This value is used to help determine the range of the ADC. The actual range will be coerced to one that your hardware supports. Refer to your device documentation for a list of available ranges.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG src="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAACAAAAAQCAMAAABA3o1rAAADAFBMVEX//////8z//5n//2b//zP//wD/zP//zMz/zJn/zGb/zDP/zAD/mf//mcz/mZn/mWb/mTP/mQD/Zv//Zsz/Zpn/Zmb/ZjP/ZgD/M///M8z/M5n/M2b/MzP/MwD/AP//AMz/AJn/AGb/ADP/AADM///M/8zM/5nM/2bM/zPM/wDMzP/MzMzMzJnMzGbMzDPMzADMmf/MmczMmZnMmWbMmTPMmQDMZv/MZszMZpnMZmbMZjPMZgDMM//MM8zMM5nMM2bMMzPMMwDMAP/MAMzMAJnMAGbMADPMAACZ//+Z/8yZ/5mZ/2aZ/zOZ/wCZzP+ZzMyZzJmZzGaZzDOZzACZmf+ZmcyZmZmZmWaZmTOZmQCZZv+ZZsyZZpmZZmaZZjOZZgCZM/+ZM8yZM5mZM2aZMzOZMwCZAP+ZAMyZAJmZAGaZADOZAABm//9m/8xm/5lm/2Zm/zNm/wBmzP9mzMxmzJlmzGZmzDNmzABmmf9mmcxmmZlmmWZmmTNmmQBmZv9mZsxmZplmZmZmZjNmZgBmM/9mM8xmM5lmM2ZmMzNmMwBmAP9mAMxmAJlmAGZmADNmAAAz//8z/8wz/5kz/2Yz/zMz/wAzzP8zzMwzzJkzzGYzzDMzzAAzmf8zmcwzmZkzmWYzmTMzmQAzZv8zZswzZpkzZmYzZjMzZgAzM/8zM8wzM5kzM2YzMzMzMwAzAP8zAMwzAJkzAGYzADMzAAAA//8A/8wA/5kA/2YA/zMA/wAAzP8AzMwAzJkAzGYAzDMAzAAAmf8AmcwAmZkAmWYAmTMAmQAAZv8AZswAZpkAZmYAZjMAZgAAM/8AM8wAM5kAM2YAMzMAMwAAAP8AAMwAAJkAAGYAADPuAADdAAC7AACqAACIAAB3AABVAABEAAAiAAARAAAA7gAA3QAAuwAAqgAAiAAAdwAAVQAARAAAIgAAEQAAAO4AAN0AALsAAKoAAIgAAHcAAFUAAEQAACIAABHu7u7d3d27u7uqqqqIiIh3d3dVVVVEREQiIiIREREAAAD7CIKZAAAAVklEQVQoU42PXQ7AIAyCuf/xdh4ejP3ZNF1RYpoYP8DiOQgXAIQc0PZ5Wv8KmAE2YoJ7gr/H3QiyADkFgOiwCvK/Itk9Yfmkb1gqqr4tWmVnL2l/Q7QGRH36sW26z7AAAAAASUVORK5CYII=" ALT="ci32"></P>
+</TD>
+<TD>
+<B>Thermocouple Type</B> <P><B>Thermocouple Type</B> specifies the type of thermocouple connected to the channel. Thermocouple types differ in composition and measurement range.</P>
+<P>Refer the Thermocouple datasheet to determine its type.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG src="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAACAAAAAQCAMAAABA3o1rAAADAFBMVEX//////8z//5n//2b//zP//wD/zP//zMz/zJn/zGb/zDP/zAD/mf//mcz/mZn/mWb/mTP/mQD/Zv//Zsz/Zpn/Zmb/ZjP/ZgD/M///M8z/M5n/M2b/MzP/MwD/AP//AMz/AJn/AGb/ADP/AADM///M/8zM/5nM/2bM/zPM/wDMzP/MzMzMzJnMzGbMzDPMzADMmf/MmczMmZnMmWbMmTPMmQDMZv/MZszMZpnMZmbMZjPMZgDMM//MM8zMM5nMM2bMMzPMMwDMAP/MAMzMAJnMAGbMADPMAACZ//+Z/8yZ/5mZ/2aZ/zOZ/wCZzP+ZzMyZzJmZzGaZzDOZzACZmf+ZmcyZmZmZmWaZmTOZmQCZZv+ZZsyZZpmZZmaZZjOZZgCZM/+ZM8yZM5mZM2aZMzOZMwCZAP+ZAMyZAJmZAGaZADOZAABm//9m/8xm/5lm/2Zm/zNm/wBmzP9mzMxmzJlmzGZmzDNmzABmmf9mmcxmmZlmmWZmmTNmmQBmZv9mZsxmZplmZmZmZjNmZgBmM/9mM8xmM5lmM2ZmMzNmMwBmAP9mAMxmAJlmAGZmADNmAAAz//8z/8wz/5kz/2Yz/zMz/wAzzP8zzMwzzJkzzGYzzDMzzAAzmf8zmcwzmZkzmWYzmTMzmQAzZv8zZswzZpkzZmYzZjMzZgAzM/8zM8wzM5kzM2YzMzMzMwAzAP8zAMwzAJkzAGYzADMzAAAA//8A/8wA/5kA/2YA/zMA/wAAzP8AzMwAzJkAzGYAzDMAzAAAmf8AmcwAmZkAmWYAmTMAmQAAZv8AZswAZpkAZmYAZjMAZgAAM/8AM8wAM5kAM2YAMzMAMwAAAP8AAMwAAJkAAGYAADPuAADdAAC7AACqAACIAAB3AABVAABEAAAiAAARAAAA7gAA3QAAuwAAqgAAiAAAdwAAVQAARAAAIgAAEQAAAO4AAN0AALsAAKoAAIgAAHcAAFUAAEQAACIAABHu7u7d3d27u7uqqqqIiIh3d3dVVVVEREQiIiIREREAAAD7CIKZAAAAS0lEQVQoU42PwQ0AIAgD2cL99+RhrImCocUL8eO1qI0G+xBMsAUdX0PzUUDgnLj3R0gDwSshNpRCavBO4I+EkoWC+wtK2EeQ8VOimbAZJ9j1+sF+AAAAAElFTkSuQmCC" ALT="cdbl"></P>
+</TD>
+<TD>
+<B>CJC Temp (deg C)</B> <P><B>CJC value</B> specifies in <B>units</B> the temperature of the cold junction if you set <B>cjc source</B> to <B>Constant Value</B>.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG src="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAACAAAAAQCAMAAABA3o1rAAADAFBMVEX//////8z//5n//2b//zP//wD/zP//zMz/zJn/zGb/zDP/zAD/mf//mcz/mZn/mWb/mTP/mQD/Zv//Zsz/Zpn/Zmb/ZjP/ZgD/M///M8z/M5n/M2b/MzP/MwD/AP//AMz/AJn/AGb/ADP/AADM///M/8zM/5nM/2bM/zPM/wDMzP/MzMzMzJnMzGbMzDPMzADMmf/MmczMmZnMmWbMmTPMmQDMZv/MZszMZpnMZmbMZjPMZgDMM//MM8zMM5nMM2bMMzPMMwDMAP/MAMzMAJnMAGbMADPMAACZ//+Z/8yZ/5mZ/2aZ/zOZ/wCZzP+ZzMyZzJmZzGaZzDOZzACZmf+ZmcyZmZmZmWaZmTOZmQCZZv+ZZsyZZpmZZmaZZjOZZgCZM/+ZM8yZM5mZM2aZMzOZMwCZAP+ZAMyZAJmZAGaZADOZAABm//9m/8xm/5lm/2Zm/zNm/wBmzP9mzMxmzJlmzGZmzDNmzABmmf9mmcxmmZlmmWZmmTNmmQBmZv9mZsxmZplmZmZmZjNmZgBmM/9mM8xmM5lmM2ZmMzNmMwBmAP9mAMxmAJlmAGZmADNmAAAz//8z/8wz/5kz/2Yz/zMz/wAzzP8zzMwzzJkzzGYzzDMzzAAzmf8zmcwzmZkzmWYzmTMzmQAzZv8zZswzZpkzZmYzZjMzZgAzM/8zM8wzM5kzM2YzMzMzMwAzAP8zAMwzAJkzAGYzADMzAAAA//8A/8wA/5kA/2YA/zMA/wAAzP8AzMwAzJkAzGYAzDMAzAAAmf8AmcwAmZkAmWYAmTMAmQAAZv8AZswAZpkAZmYAZjMAZgAAM/8AM8wAM5kAM2YAMzMAMwAAAP8AAMwAAJkAAGYAADPuAADdAAC7AACqAACIAAB3AABVAABEAAAiAAARAAAA7gAA3QAAuwAAqgAAiAAAdwAAVQAARAAAIgAAEQAAAO4AAN0AALsAAKoAAIgAAHcAAFUAAEQAACIAABHu7u7d3d27u7uqqqqIiIh3d3dVVVVEREQiIiIREREAAAD7CIKZAAAAR0lEQVQoU52PwQkAIAwDs/9qrpSHSENFpVE8hIJcQot2AQ8CDCH4+HhlfhUUggbAoyH+cyvyW5BC8rehFDbmFSUSDDaeJZ4OWdHkfaNCMWsAAAAASUVORK5CYII=" ALT="cbool"></P>
+</TD>
+<TD>
+<B> Autozero[Enable Autozero]</B> <P><B>Enable Autozero </B> determines whether Auto Zero is enabled.  If Enabled, NI-DAQ device shorts the input channel to ground and subtracts the obtained measurement from all subsequent samples.</P>
+<P>Refer the targeted NI Device documentation to check if Autozero feature is supported.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG src="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAACAAAAAQCAMAAABA3o1rAAADAFBMVEX//////8z//5n//2b//zP//wD/zP//zMz/zJn/zGb/zDP/zAD/mf//mcz/mZn/mWb/mTP/mQD/Zv//Zsz/Zpn/Zmb/ZjP/ZgD/M///M8z/M5n/M2b/MzP/MwD/AP//AMz/AJn/AGb/ADP/AADM///M/8zM/5nM/2bM/zPM/wDMzP/MzMzMzJnMzGbMzDPMzADMmf/MmczMmZnMmWbMmTPMmQDMZv/MZszMZpnMZmbMZjPMZgDMM//MM8zMM5nMM2bMMzPMMwDMAP/MAMzMAJnMAGbMADPMAACZ//+Z/8yZ/5mZ/2aZ/zOZ/wCZzP+ZzMyZzJmZzGaZzDOZzACZmf+ZmcyZmZmZmWaZmTOZmQCZZv+ZZsyZZpmZZmaZZjOZZgCZM/+ZM8yZM5mZM2aZMzOZMwCZAP+ZAMyZAJmZAGaZADOZAABm//9m/8xm/5lm/2Zm/zNm/wBmzP9mzMxmzJlmzGZmzDNmzABmmf9mmcxmmZlmmWZmmTNmmQBmZv9mZsxmZplmZmZmZjNmZgBmM/9mM8xmM5lmM2ZmMzNmMwBmAP9mAMxmAJlmAGZmADNmAAAz//8z/8wz/5kz/2Yz/zMz/wAzzP8zzMwzzJkzzGYzzDMzzAAzmf8zmcwzmZkzmWYzmTMzmQAzZv8zZswzZpkzZmYzZjMzZgAzM/8zM8wzM5kzM2YzMzMzMwAzAP8zAMwzAJkzAGYzADMzAAAA//8A/8wA/5kA/2YA/zMA/wAAzP8AzMwAzJkAzGYAzDMAzAAAmf8AmcwAmZkAmWYAmTMAmQAAZv8AZswAZpkAZmYAZjMAZgAAM/8AM8wAM5kAM2YAMzMAMwAAAP8AAMwAAJkAAGYAADPuAADdAAC7AACqAACIAAB3AABVAABEAAAiAAARAAAA7gAA3QAAuwAAqgAAiAAAdwAAVQAARAAAIgAAEQAAAO4AAN0AALsAAKoAAIgAAHcAAFUAAEQAACIAABHu7u7d3d27u7uqqqqIiIh3d3dVVVVEREQiIiIREREAAAD7CIKZAAAAVklEQVQoU42PXQ7AIAyCuf/xdh4ejP3ZNF1RYpoYP8DiOQgXAIQc0PZ5Wv8KmAE2YoJ7gr/H3QiyADkFgOiwCvK/Itk9Yfmkb1gqqr4tWmVnL2l/Q7QGRH36sW26z7AAAAAASUVORK5CYII=" ALT="ci32"></P>
+</TD>
+<TD>
+<B>Auto Zero Mode[Auto Zero Mode]</B> <P><B>Auto Zero Mode</B> specifies how often to measure ground. NI-DAQmx subtracts the measured ground voltage from every sample. The supported values are,</P>
+<P></P>
+<P><B>Every Sample</B> - Perform an auto zero at every sample of the acquisition.</P>
+<P><B>None </B> - Do not perform an autozero.</P>
+<P><B>Once </B> - Perform an auto zero at the beginning of the acquisition. This auto zero task might not run if you have used DAQmx Control Task previously in your task.</P>
+</TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG src="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAACAAAAAQCAMAAABA3o1rAAADAFBMVEX//////8z//5n//2b//zP//wD/zP//zMz/zJn/zGb/zDP/zAD/mf//mcz/mZn/mWb/mTP/mQD/Zv//Zsz/Zpn/Zmb/ZjP/ZgD/M///M8z/M5n/M2b/MzP/MwD/AP//AMz/AJn/AGb/ADP/AADM///M/8zM/5nM/2bM/zPM/wDMzP/MzMzMzJnMzGbMzDPMzADMmf/MmczMmZnMmWbMmTPMmQDMZv/MZszMZpnMZmbMZjPMZgDMM//MM8zMM5nMM2bMMzPMMwDMAP/MAMzMAJnMAGbMADPMAACZ//+Z/8yZ/5mZ/2aZ/zOZ/wCZzP+ZzMyZzJmZzGaZzDOZzACZmf+ZmcyZmZmZmWaZmTOZmQCZZv+ZZsyZZpmZZmaZZjOZZgCZM/+ZM8yZM5mZM2aZMzOZMwCZAP+ZAMyZAJmZAGaZADOZAABm//9m/8xm/5lm/2Zm/zNm/wBmzP9mzMxmzJlmzGZmzDNmzABmmf9mmcxmmZlmmWZmmTNmmQBmZv9mZsxmZplmZmZmZjNmZgBmM/9mM8xmM5lmM2ZmMzNmMwBmAP9mAMxmAJlmAGZmADNmAAAz//8z/8wz/5kz/2Yz/zMz/wAzzP8zzMwzzJkzzGYzzDMzzAAzmf8zmcwzmZkzmWYzmTMzmQAzZv8zZswzZpkzZmYzZjMzZgAzM/8zM8wzM5kzM2YzMzMzMwAzAP8zAMwzAJkzAGYzADMzAAAA//8A/8wA/5kA/2YA/zMA/wAAzP8AzMwAzJkAzGYAzDMAzAAAmf8AmcwAmZkAmWYAmTMAmQAAZv8AZswAZpkAZmYAZjMAZgAAM/8AM8wAM5kAM2YAMzMAMwAAAP8AAMwAAJkAAGYAADPuAADdAAC7AACqAACIAAB3AABVAABEAAAiAAARAAAA7gAA3QAAuwAAqgAAiAAAdwAAVQAARAAAIgAAEQAAAO4AAN0AALsAAKoAAIgAAHcAAFUAAEQAACIAABHu7u7d3d27u7uqqqqIiIh3d3dVVVVEREQiIiIREREAAAD7CIKZAAAAVklEQVQoU42RURIAEAhEO8ne/5B9GIopS+xHM7ZnCcFD8gFIoQmAMXjDAd5oZgTsRPHSDd2APQmqp4Q7YOa8GwagAVgdW4MSMgAGWGmK10Ndha/PqtUA0SMp+19s2rwAAAAASUVORK5CYII=" ALT="c1dcclst"></P>
+</TD>
+<TD>
+<B>Specific Channel Settings</B> <P><B>Specific Channel Settings</B> the range and terminal settings for the physical analog input voltage channels. If the channels are not specified in the list, the global settings will be applied.</P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG src="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAACAAAAAQCAMAAABA3o1rAAADAFBMVEX//////8z//5n//2b//zP//wD/zP//zMz/zJn/zGb/zDP/zAD/mf//mcz/mZn/mWb/mTP/mQD/Zv//Zsz/Zpn/Zmb/ZjP/ZgD/M///M8z/M5n/M2b/MzP/MwD/AP//AMz/AJn/AGb/ADP/AADM///M/8zM/5nM/2bM/zPM/wDMzP/MzMzMzJnMzGbMzDPMzADMmf/MmczMmZnMmWbMmTPMmQDMZv/MZszMZpnMZmbMZjPMZgDMM//MM8zMM5nMM2bMMzPMMwDMAP/MAMzMAJnMAGbMADPMAACZ//+Z/8yZ/5mZ/2aZ/zOZ/wCZzP+ZzMyZzJmZzGaZzDOZzACZmf+ZmcyZmZmZmWaZmTOZmQCZZv+ZZsyZZpmZZmaZZjOZZgCZM/+ZM8yZM5mZM2aZMzOZMwCZAP+ZAMyZAJmZAGaZADOZAABm//9m/8xm/5lm/2Zm/zNm/wBmzP9mzMxmzJlmzGZmzDNmzABmmf9mmcxmmZlmmWZmmTNmmQBmZv9mZsxmZplmZmZmZjNmZgBmM/9mM8xmM5lmM2ZmMzNmMwBmAP9mAMxmAJlmAGZmADNmAAAz//8z/8wz/5kz/2Yz/zMz/wAzzP8zzMwzzJkzzGYzzDMzzAAzmf8zmcwzmZkzmWYzmTMzmQAzZv8zZswzZpkzZmYzZjMzZgAzM/8zM8wzM5kzM2YzMzMzMwAzAP8zAMwzAJkzAGYzADMzAAAA//8A/8wA/5kA/2YA/zMA/wAAzP8AzMwAzJkAzGYAzDMAzAAAmf8AmcwAmZkAmWYAmTMAmQAAZv8AZswAZpkAZmYAZjMAZgAAM/8AM8wAM5kAM2YAMzMAMwAAAP8AAMwAAJkAAGYAADPuAADdAAC7AACqAACIAAB3AABVAABEAAAiAAARAAAA7gAA3QAAuwAAqgAAiAAAdwAAVQAARAAAIgAAEQAAAO4AAN0AALsAAKoAAIgAAHcAAFUAAEQAACIAABHu7u7d3d27u7uqqqqIiIh3d3dVVVVEREQiIiIREREAAAD7CIKZAAAAU0lEQVQoU42PyQ0AIAgEtxL6L5KHBwQvXJ0oJjoLEfIAHwIIJvB4W1mwH4tgEXhpN7oJvgeqWYe7EBZ8ThV0EuLFRsnRYRXkFBLGL664QKDxaMIpHTwuFZcfYJwAAAAASUVORK5CYII=" ALT="ccclst"></P>
+</TD>
+<TD>
+<B>Channel Settings</B> <P><B>Channel Settings</B> selects the type of channels on which the configuration must be applied. The settings can be applied to all analog input voltage channels or only on selective active channels.</P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG src="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAACAAAAAQCAMAAABA3o1rAAADAFBMVEX//////8z//5n//2b//zP//wD/zP//zMz/zJn/zGb/zDP/zAD/mf//mcz/mZn/mWb/mTP/mQD/Zv//Zsz/Zpn/Zmb/ZjP/ZgD/M///M8z/M5n/M2b/MzP/MwD/AP//AMz/AJn/AGb/ADP/AADM///M/8zM/5nM/2bM/zPM/wDMzP/MzMzMzJnMzGbMzDPMzADMmf/MmczMmZnMmWbMmTPMmQDMZv/MZszMZpnMZmbMZjPMZgDMM//MM8zMM5nMM2bMMzPMMwDMAP/MAMzMAJnMAGbMADPMAACZ//+Z/8yZ/5mZ/2aZ/zOZ/wCZzP+ZzMyZzJmZzGaZzDOZzACZmf+ZmcyZmZmZmWaZmTOZmQCZZv+ZZsyZZpmZZmaZZjOZZgCZM/+ZM8yZM5mZM2aZMzOZMwCZAP+ZAMyZAJmZAGaZADOZAABm//9m/8xm/5lm/2Zm/zNm/wBmzP9mzMxmzJlmzGZmzDNmzABmmf9mmcxmmZlmmWZmmTNmmQBmZv9mZsxmZplmZmZmZjNmZgBmM/9mM8xmM5lmM2ZmMzNmMwBmAP9mAMxmAJlmAGZmADNmAAAz//8z/8wz/5kz/2Yz/zMz/wAzzP8zzMwzzJkzzGYzzDMzzAAzmf8zmcwzmZkzmWYzmTMzmQAzZv8zZswzZpkzZmYzZjMzZgAzM/8zM8wzM5kzM2YzMzMzMwAzAP8zAMwzAJkzAGYzADMzAAAA//8A/8wA/5kA/2YA/zMA/wAAzP8AzMwAzJkAzGYAzDMAzAAAmf8AmcwAmZkAmWYAmTMAmQAAZv8AZswAZpkAZmYAZjMAZgAAM/8AM8wAM5kAM2YAMzMAMwAAAP8AAMwAAJkAAGYAADPuAADdAAC7AACqAACIAAB3AABVAABEAAAiAAARAAAA7gAA3QAAuwAAqgAAiAAAdwAAVQAARAAAIgAAEQAAAO4AAN0AALsAAKoAAIgAAHcAAFUAAEQAACIAABHu7u7d3d27u7uqqqqIiIh3d3dVVVVEREQiIiIREREAAAD7CIKZAAAAT0lEQVQoU5WRWwoAIAgE9/6wN/YjyiRKMxsi/BjXHuADFAQkqJC393Xt3wTqMGpwR44E2s5ZiwQC8SWIE0yKEsYhrUQ0wrFu8XqohNpn5TTHBJ/cpL4svwAAAABJRU5ErkJggg==" ALT="cdaqmxphyschan"></P>
+</TD>
+<TD>
+<B>Physical Channel Name</B> <P>Specifies the physical channel to modify. </P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG src="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAACAAAAAQCAMAAABA3o1rAAADAFBMVEX//////8z//5n//2b//zP//wD/zP//zMz/zJn/zGb/zDP/zAD/mf//mcz/mZn/mWb/mTP/mQD/Zv//Zsz/Zpn/Zmb/ZjP/ZgD/M///M8z/M5n/M2b/MzP/MwD/AP//AMz/AJn/AGb/ADP/AADM///M/8zM/5nM/2bM/zPM/wDMzP/MzMzMzJnMzGbMzDPMzADMmf/MmczMmZnMmWbMmTPMmQDMZv/MZszMZpnMZmbMZjPMZgDMM//MM8zMM5nMM2bMMzPMMwDMAP/MAMzMAJnMAGbMADPMAACZ//+Z/8yZ/5mZ/2aZ/zOZ/wCZzP+ZzMyZzJmZzGaZzDOZzACZmf+ZmcyZmZmZmWaZmTOZmQCZZv+ZZsyZZpmZZmaZZjOZZgCZM/+ZM8yZM5mZM2aZMzOZMwCZAP+ZAMyZAJmZAGaZADOZAABm//9m/8xm/5lm/2Zm/zNm/wBmzP9mzMxmzJlmzGZmzDNmzABmmf9mmcxmmZlmmWZmmTNmmQBmZv9mZsxmZplmZmZmZjNmZgBmM/9mM8xmM5lmM2ZmMzNmMwBmAP9mAMxmAJlmAGZmADNmAAAz//8z/8wz/5kz/2Yz/zMz/wAzzP8zzMwzzJkzzGYzzDMzzAAzmf8zmcwzmZkzmWYzmTMzmQAzZv8zZswzZpkzZmYzZjMzZgAzM/8zM8wzM5kzM2YzMzMzMwAzAP8zAMwzAJkzAGYzADMzAAAA//8A/8wA/5kA/2YA/zMA/wAAzP8AzMwAzJkAzGYAzDMAzAAAmf8AmcwAmZkAmWYAmTMAmQAAZv8AZswAZpkAZmYAZjMAZgAAM/8AM8wAM5kAM2YAMzMAMwAAAP8AAMwAAJkAAGYAADPuAADdAAC7AACqAACIAAB3AABVAABEAAAiAAARAAAA7gAA3QAAuwAAqgAAiAAAdwAAVQAARAAAIgAAEQAAAO4AAN0AALsAAKoAAIgAAHcAAFUAAEQAACIAABHu7u7d3d27u7uqqqqIiIh3d3dVVVVEREQiIiIREREAAAD7CIKZAAAAVklEQVQoU42PXQ7AIAyCuf/xdh4ejP3ZNF1RYpoYP8DiOQgXAIQc0PZ5Wv8KmAE2YoJ7gr/H3QiyADkFgOiwCvK/Itk9Yfmkb1gqqr4tWmVnL2l/Q7QGRH36sW26z7AAAAAASUVORK5CYII=" ALT="ci32"></P>
+</TD>
+<TD>
+<B>Thermocouple Type[Thermocouple Type]</B> <P><B>Thermocouple Type</B> specifies the type of thermocouple connected to the channel. Thermocouple types differ in composition and measurement range.</P>
+</TD>
+</TR>
+</Table>
+</UL>
+</UL>
+</UL>
+<HR>
+<H3>List of SubVIs and Express VIs with Configuration Information</H3>
+<HR>
+<H3>VI Revision History</H3>
+<P>&quot;DAQ_Temperature Thermocouple Measurement.lvlib:Range and Terminal Settings.ctl History&quot;</P>
+<P>Current Revision:   69</P>
+<HR>
+<H3>Position in Hierarchy</H3>
+<P><IMG src="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAADIAAAA1CAMAAAA05Eg7AAADAFBMVEX//////8z//5n//2b//zP//wD/zP//zMz/zJn/zGb/zDP/zAD/mf//mcz/mZn/mWb/mTP/mQD/Zv//Zsz/Zpn/Zmb/ZjP/ZgD/M///M8z/M5n/M2b/MzP/MwD/AP//AMz/AJn/AGb/ADP/AADM///M/8zM/5nM/2bM/zPM/wDMzP/MzMzMzJnMzGbMzDPMzADMmf/MmczMmZnMmWbMmTPMmQDMZv/MZszMZpnMZmbMZjPMZgDMM//MM8zMM5nMM2bMMzPMMwDMAP/MAMzMAJnMAGbMADPMAACZ//+Z/8yZ/5mZ/2aZ/zOZ/wCZzP+ZzMyZzJmZzGaZzDOZzACZmf+ZmcyZmZmZmWaZmTOZmQCZZv+ZZsyZZpmZZmaZZjOZZgCZM/+ZM8yZM5mZM2aZMzOZMwCZAP+ZAMyZAJmZAGaZADOZAABm//9m/8xm/5lm/2Zm/zNm/wBmzP9mzMxmzJlmzGZmzDNmzABmmf9mmcxmmZlmmWZmmTNmmQBmZv9mZsxmZplmZmZmZjNmZgBmM/9mM8xmM5lmM2ZmMzNmMwBmAP9mAMxmAJlmAGZmADNmAAAz//8z/8wz/5kz/2Yz/zMz/wAzzP8zzMwzzJkzzGYzzDMzzAAzmf8zmcwzmZkzmWYzmTMzmQAzZv8zZswzZpkzZmYzZjMzZgAzM/8zM8wzM5kzM2YzMzMzMwAzAP8zAMwzAJkzAGYzADMzAAAA//8A/8wA/5kA/2YA/zMA/wAAzP8AzMwAzJkAzGYAzDMAzAAAmf8AmcwAmZkAmWYAmTMAmQAAZv8AZswAZpkAZmYAZjMAZgAAM/8AM8wAM5kAM2YAMzMAMwAAAP8AAMwAAJkAAGYAADPuAADdAAC7AACqAACIAAB3AABVAABEAAAiAAARAAAA7gAA3QAAuwAAqgAAiAAAdwAAVQAARAAAIgAAEQAAAO4AAN0AALsAAKoAAIgAAHcAAFUAAEQAACIAABHu7u7d3d27u7uqqqqIiIh3d3dVVVVEREQiIiIREREAAAD7CIKZAAABDUlEQVRIS+2UUQ7DIAiGffE0HmTH5hC7TV9cUQGx4FzTJsuyv4kxyucvagnhhPIHImS6oNIPIytHNSJpIgfJaV8tOY2J7DYZrezmKpczuSTvtNDfRkBCYOg5CCQOBGZa7zIE9nGgONoQ9d4ikR/PMhJiiCtIOWRoLvjlbnc28mAVF3GqCMyRSEwgxkbCRmq5iJOLlAcDlEvOndN+ZSr0iFAWjanbdZFy3ZRD81lB+lywhwmq0OHxg84FARy0kCeL168OuI59lR0iZ1UB98HoexGHCSI/snaYIlwaisNKuZCiVBwWilJX+rbvKn1TmYjoECkzLqKbccYYLwPV4WakJeIizvFYU8HRQshfd+sFKXxEAbAc0uMAAAAASUVORK5CYII=" ALT="DAQ_Temperature Thermocouple Measurement.lvlib:Range and Terminal Settings.ctl"></P>
+<HR>
+<H3>Iconified Cluster Constants</H3>
+</BODY>
+</HTML>

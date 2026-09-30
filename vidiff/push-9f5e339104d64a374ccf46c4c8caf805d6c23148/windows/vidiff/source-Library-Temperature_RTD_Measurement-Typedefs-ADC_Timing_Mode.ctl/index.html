@@ -1,0 +1,50 @@
+<HTML>
+<HEAD>
+<TITLE>DAQ_Temperature RTD Measurement.lvlib:ADC Timing Mode.ctl</TITLE>
+<META NAME="Author" CONTENT="">
+<META NAME="GENERATOR" CONTENT="G Development Environment">
+</HEAD>
+<BODY BGCOLOR="#FFFFFF">
+<A NAME="DAQ_Temperature RTD Measurement.lvlib:ADC Timing Mode.ctl"></A><H2>DAQ_Temperature RTD Measurement.lvlib:ADC Timing Mode.ctl</H2>
+<P>Specifies the <B>ADC timing mode</B>, controlling the tradeoff between <B>speed and effective resolution</B>. Some ADC timing modes provide increased powerline noise rejection. On devices that have an AI Convert clock, this setting affects both the maximum and default values for AIConv.Rate. Same ADC timing mode must be specified for all channels on a same device.</P>
+<P></P>
+<P>Supported ADC modes are,</P>
+<P><B>Automatic</B> - Uses the most appropriate supported timing mode based on the Sample Clock Rate.</P>
+<P><B>High Resolution</B>  - Increases resolution and noise rejection while decreasing conversion rate.</P>
+<P><B>High Speed</B>  - Increases conversion rate while decreasing resolution.</P>
+<HR>
+<H3>Connector Pane</H3>
+<P><IMG src="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAADAFBMVEX//////8z//5n//2b//zP//wD/zP//zMz/zJn/zGb/zDP/zAD/mf//mcz/mZn/mWb/mTP/mQD/Zv//Zsz/Zpn/Zmb/ZjP/ZgD/M///M8z/M5n/M2b/MzP/MwD/AP//AMz/AJn/AGb/ADP/AADM///M/8zM/5nM/2bM/zPM/wDMzP/MzMzMzJnMzGbMzDPMzADMmf/MmczMmZnMmWbMmTPMmQDMZv/MZszMZpnMZmbMZjPMZgDMM//MM8zMM5nMM2bMMzPMMwDMAP/MAMzMAJnMAGbMADPMAACZ//+Z/8yZ/5mZ/2aZ/zOZ/wCZzP+ZzMyZzJmZzGaZzDOZzACZmf+ZmcyZmZmZmWaZmTOZmQCZZv+ZZsyZZpmZZmaZZjOZZgCZM/+ZM8yZM5mZM2aZMzOZMwCZAP+ZAMyZAJmZAGaZADOZAABm//9m/8xm/5lm/2Zm/zNm/wBmzP9mzMxmzJlmzGZmzDNmzABmmf9mmcxmmZlmmWZmmTNmmQBmZv9mZsxmZplmZmZmZjNmZgBmM/9mM8xmM5lmM2ZmMzNmMwBmAP9mAMxmAJlmAGZmADNmAAAz//8z/8wz/5kz/2Yz/zMz/wAzzP8zzMwzzJkzzGYzzDMzzAAzmf8zmcwzmZkzmWYzmTMzmQAzZv8zZswzZpkzZmYzZjMzZgAzM/8zM8wzM5kzM2YzMzMzMwAzAP8zAMwzAJkzAGYzADMzAAAA//8A/8wA/5kA/2YA/zMA/wAAzP8AzMwAzJkAzGYAzDMAzAAAmf8AmcwAmZkAmWYAmTMAmQAAZv8AZswAZpkAZmYAZjMAZgAAM/8AM8wAM5kAM2YAMzMAMwAAAP8AAMwAAJkAAGYAADPuAADdAAC7AACqAACIAAB3AABVAABEAAAiAAARAAAA7gAA3QAAuwAAqgAAiAAAdwAAVQAARAAAIgAAEQAAAO4AAN0AALsAAKoAAIgAAHcAAFUAAEQAACIAABHu7u7d3d27u7uqqqqIiIh3d3dVVVVEREQiIiIREREAAAD7CIKZAAAAfUlEQVQ4T72Siw3AIAhEb/9dGMWZWotgsSK0ielFE6LP8/yAEoFKqPcAAO538QAKpuYAvDACUofevAwLbQGOUBVAqE9AfTlcz9eqFSBDfZRsqXN2Vwvw70gdogyudgEkJ+QcehsSpzlIsuEYZByg7ADQBNjFrkOQYa1/gEQn/tZ8/Y5p9KQAAAAASUVORK5CYII=" ALT="DAQ_Temperature RTD Measurement.lvlib:ADC Timing Mode.ctl"></P>
+<HR>
+<H3>Front Panel</H3>
+<P><IMG src="data:image/png;base64, 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" ALT="DAQ_Temperature RTD Measurement.lvlib:ADC Timing Mode.ctl"></P>
+<HR>
+<H3>Controls and Indicators</H3>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG src="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAACAAAAAQCAMAAABA3o1rAAADAFBMVEX//////8z//5n//2b//zP//wD/zP//zMz/zJn/zGb/zDP/zAD/mf//mcz/mZn/mWb/mTP/mQD/Zv//Zsz/Zpn/Zmb/ZjP/ZgD/M///M8z/M5n/M2b/MzP/MwD/AP//AMz/AJn/AGb/ADP/AADM///M/8zM/5nM/2bM/zPM/wDMzP/MzMzMzJnMzGbMzDPMzADMmf/MmczMmZnMmWbMmTPMmQDMZv/MZszMZpnMZmbMZjPMZgDMM//MM8zMM5nMM2bMMzPMMwDMAP/MAMzMAJnMAGbMADPMAACZ//+Z/8yZ/5mZ/2aZ/zOZ/wCZzP+ZzMyZzJmZzGaZzDOZzACZmf+ZmcyZmZmZmWaZmTOZmQCZZv+ZZsyZZpmZZmaZZjOZZgCZM/+ZM8yZM5mZM2aZMzOZMwCZAP+ZAMyZAJmZAGaZADOZAABm//9m/8xm/5lm/2Zm/zNm/wBmzP9mzMxmzJlmzGZmzDNmzABmmf9mmcxmmZlmmWZmmTNmmQBmZv9mZsxmZplmZmZmZjNmZgBmM/9mM8xmM5lmM2ZmMzNmMwBmAP9mAMxmAJlmAGZmADNmAAAz//8z/8wz/5kz/2Yz/zMz/wAzzP8zzMwzzJkzzGYzzDMzzAAzmf8zmcwzmZkzmWYzmTMzmQAzZv8zZswzZpkzZmYzZjMzZgAzM/8zM8wzM5kzM2YzMzMzMwAzAP8zAMwzAJkzAGYzADMzAAAA//8A/8wA/5kA/2YA/zMA/wAAzP8AzMwAzJkAzGYAzDMAzAAAmf8AmcwAmZkAmWYAmTMAmQAAZv8AZswAZpkAZmYAZjMAZgAAM/8AM8wAM5kAM2YAMzMAMwAAAP8AAMwAAJkAAGYAADPuAADdAAC7AACqAACIAAB3AABVAABEAAAiAAARAAAA7gAA3QAAuwAAqgAAiAAAdwAAVQAARAAAIgAAEQAAAO4AAN0AALsAAKoAAIgAAHcAAFUAAEQAACIAABHu7u7d3d27u7uqqqqIiIh3d3dVVVVEREQiIiIREREAAAD7CIKZAAAAVklEQVQoU42PXQ7AIAyCuf/xdh4ejP3ZNF1RYpoYP8DiOQgXAIQc0PZ5Wv8KmAE2YoJ7gr/H3QiyADkFgOiwCvK/Itk9Yfmkb1gqqr4tWmVnL2l/Q7QGRH36sW26z7AAAAAASUVORK5CYII=" ALT="ci32"></P>
+</TD>
+<TD>
+<B>ADC Timing Mode</B> <P>Specifies the <B>ADC timing mode</B>, controlling the tradeoff between <B>speed and effective resolution</B>. Some ADC timing modes provide increased powerline noise rejection. On devices that have an AI Convert clock, this setting affects both the maximum and default values for AIConv.Rate. Same ADC timing mode must be specified for all channels on a same device.</P>
+<P></P>
+<P>Supported ADC modes are,</P>
+<P><B>Automatic</B> - Uses the most appropriate supported timing mode based on the Sample Clock Rate.</P>
+<P><B>High Resolution</B>  - Increases resolution and noise rejection while decreasing conversion rate.</P>
+<P><B>High Speed</B>  - Increases conversion rate while decreasing resolution.</P>
+</TD>
+</TR>
+</Table>
+<HR>
+<H3>List of SubVIs and Express VIs with Configuration Information</H3>
+<HR>
+<H3>VI Revision History</H3>
+<P>&quot;DAQ_Temperature RTD Measurement.lvlib:ADC Timing Mode.ctl History&quot;</P>
+<P>Current Revision:   6</P>
+<HR>
+<H3>Position in Hierarchy</H3>
+<P><IMG src="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAADIAAAA1CAMAAAA05Eg7AAADAFBMVEX//////8z//5n//2b//zP//wD/zP//zMz/zJn/zGb/zDP/zAD/mf//mcz/mZn/mWb/mTP/mQD/Zv//Zsz/Zpn/Zmb/ZjP/ZgD/M///M8z/M5n/M2b/MzP/MwD/AP//AMz/AJn/AGb/ADP/AADM///M/8zM/5nM/2bM/zPM/wDMzP/MzMzMzJnMzGbMzDPMzADMmf/MmczMmZnMmWbMmTPMmQDMZv/MZszMZpnMZmbMZjPMZgDMM//MM8zMM5nMM2bMMzPMMwDMAP/MAMzMAJnMAGbMADPMAACZ//+Z/8yZ/5mZ/2aZ/zOZ/wCZzP+ZzMyZzJmZzGaZzDOZzACZmf+ZmcyZmZmZmWaZmTOZmQCZZv+ZZsyZZpmZZmaZZjOZZgCZM/+ZM8yZM5mZM2aZMzOZMwCZAP+ZAMyZAJmZAGaZADOZAABm//9m/8xm/5lm/2Zm/zNm/wBmzP9mzMxmzJlmzGZmzDNmzABmmf9mmcxmmZlmmWZmmTNmmQBmZv9mZsxmZplmZmZmZjNmZgBmM/9mM8xmM5lmM2ZmMzNmMwBmAP9mAMxmAJlmAGZmADNmAAAz//8z/8wz/5kz/2Yz/zMz/wAzzP8zzMwzzJkzzGYzzDMzzAAzmf8zmcwzmZkzmWYzmTMzmQAzZv8zZswzZpkzZmYzZjMzZgAzM/8zM8wzM5kzM2YzMzMzMwAzAP8zAMwzAJkzAGYzADMzAAAA//8A/8wA/5kA/2YA/zMA/wAAzP8AzMwAzJkAzGYAzDMAzAAAmf8AmcwAmZkAmWYAmTMAmQAAZv8AZswAZpkAZmYAZjMAZgAAM/8AM8wAM5kAM2YAMzMAMwAAAP8AAMwAAJkAAGYAADPuAADdAAC7AACqAACIAAB3AABVAABEAAAiAAARAAAA7gAA3QAAuwAAqgAAiAAAdwAAVQAARAAAIgAAEQAAAO4AAN0AALsAAKoAAIgAAHcAAFUAAEQAACIAABHu7u7d3d27u7uqqqqIiIh3d3dVVVVEREQiIiIREREAAAD7CIKZAAABDUlEQVRIS+2UUQ7DIAiGffE0HmTH5hC7TV9cUQGx4FzTJsuyv4kxyucvagnhhPIHImS6oNIPIytHNSJpIgfJaV8tOY2J7DYZrezmKpczuSTvtNDfRkBCYOg5CCQOBGZa7zIE9nGgONoQ9d4ikR/PMhJiiCtIOWRoLvjlbnc28mAVF3GqCMyRSEwgxkbCRmq5iJOLlAcDlEvOndN+ZSr0iFAWjanbdZFy3ZRD81lB+lywhwmq0OHxg84FARy0kCeL168OuI59lR0iZ1UB98HoexGHCSI/snaYIlwaisNKuZCiVBwWilJX+rbvKn1TmYjoECkzLqKbccYYLwPV4WakJeIizvFYU8HRQshfd+sFKXxEAbAc0uMAAAAASUVORK5CYII=" ALT="DAQ_Temperature RTD Measurement.lvlib:ADC Timing Mode.ctl"></P>
+<HR>
+<H3>Iconified Cluster Constants</H3>
+</BODY>
+</HTML>
