@@ -1,0 +1,12 @@
+{
+    "repo":  "elijah286/nipcbatt-labview",
+    "sha":  "9f5e339104d64a374ccf46c4c8caf805d6c23148",
+    "ref":  "refs/heads/main",
+    "platform":  "windows",
+    "arch":  "AMD64",
+    "labview_version":  "LabVIEW 2026",
+    "built_at":  "2026-09-30T15:56:31Z",
+    "specs":  [
+
+              ]
+}
