@@ -1304,7 +1304,7 @@
     // activities to queue. Reuses dispatchCells (oldest-first, snapshots as one
     // backfill) + the same token and optimistic-queued bridge as every other
     // dispatch on the dashboard.
-    var HIST = [{"sha": "9f5e339104d64a374ccf46c4c8caf805d6c23148", "short": "9f5e339", "msg": "initial commit added source, docs and updated the readme", "dep_only": false, "snapshots2": {"windows": {"have": 0, "total": 183}, "linux": {"have": 183, "total": 183}}}];                        // [{sha, short, msg}] newest-first (project revisions)
+    var HIST = [{"sha": "9f5e339104d64a374ccf46c4c8caf805d6c23148", "short": "9f5e339", "msg": "initial commit added source, docs and updated the readme", "dep_only": false, "snapshots2": {"windows": {"have": 183, "total": 183}, "linux": {"have": 183, "total": 183}}}];                        // [{sha, short, msg}] newest-first (project revisions)
     var RAN = {"masscompile": 1, "snapshots": 1, "snapshots2": 1, "unit-tests": 1, "vi-analyzer": 1, "vidiff": 1};                     // {cap:1} caps with a result/active run somewhere in history
     var CAP_META = {                            // label + sub for each known capability
       'snapshots':   ['VI Snapshots', 'Renders every changed VI (classic HTML snapshots)'],
@@ -1911,7 +1911,7 @@
   <script>
   (function(){
     var RT = {"masscompile": {"label": "Mass Compile", "platforms": {"windows": {"wf": "masscompile-windows-container.yml", "inputs": {"commit_sha": "{sha}"}}, "linux": {"wf": "masscompile-linux-container.yml", "inputs": {"commit_sha": "{sha}"}}}}, "vi-analyzer": {"label": "VI Analyzer", "platforms": {"windows": {"wf": "run-vi-analyzer-windows-container.yml", "inputs": {"commit_sha": "{sha}"}}, "linux": {"wf": "run-vi-analyzer-linux-container.yml", "inputs": {"commit_sha": "{sha}"}}}}, "vidiff": {"label": "VIDiff", "platforms": {"windows": {"wf": "vidiff-windows-container.yml", "inputs": {"head_sha": "{sha}", "base_sha": "{parent}"}}, "linux": {"wf": "vidiff-linux-container.yml", "inputs": {"head_sha": "{sha}", "base_sha": "{parent}"}}}}, "snapshots": {"label": "VI Snapshots", "platforms": {"all": {"wf": "vi-snapshots.yml", "inputs": {"mode": "backfill"}}}}, "snapshots2": {"label": "VI Browser 2.0 Snapshots", "platforms": {"windows": {"wf": "vi-snapshots-json-windows.yml", "inputs": {"target_sha": "{sha}"}}, "linux": {"wf": "vi-snapshots-json.yml", "inputs": {"mode": "head", "target_sha": "{sha}"}}}}, "unit-tests": {"label": "Unit Tests", "platforms": {"windows": {"wf": "unit-tests-windows-container.yml", "inputs": {"commit_sha": "{sha}"}}}}, "builds": {"label": "Builds", "platforms": {"windows": {"wf": "build-binaries-windows-container.yml", "inputs": {"commit_sha": "{sha}"}}, "linux": {"wf": "build-binaries-linux-container.yml", "inputs": {"commit_sha": "{sha}"}}}}};
-    var HIST = [{"sha": "9f5e339104d64a374ccf46c4c8caf805d6c23148", "short": "9f5e339", "msg": "initial commit added source, docs and updated the readme", "dep_only": false, "snapshots2": {"windows": {"have": 0, "total": 183}, "linux": {"have": 183, "total": 183}}}];
+    var HIST = [{"sha": "9f5e339104d64a374ccf46c4c8caf805d6c23148", "short": "9f5e339", "msg": "initial commit added source, docs and updated the readme", "dep_only": false, "snapshots2": {"windows": {"have": 183, "total": 183}, "linux": {"have": 183, "total": 183}}}];
     var REPO = "elijah286/nipcbatt-labview";
     var BRANCH = "main";
     var TOK_KEY = "lvci_dispatch_token";
@@ -2091,7 +2091,7 @@
   </script>
   <main class="lvci-main">
   <h1>CI Dashboard — nipcbatt-labview</h1>
-  <div class="sub">Last updated: 2026-10-14 13:06 UTC &nbsp;|&nbsp; Auto-refreshes every 15 min</div>
+  <div class="sub">Last updated: 2026-10-14 14:06 UTC &nbsp;|&nbsp; Auto-refreshes every 15 min</div>
   <div class="nav">
     <a href="https://github.com/elijah286/nipcbatt-labview">GitHub</a>
     <a href="https://github.com/elijah286/nipcbatt-labview/actions">Actions</a>
